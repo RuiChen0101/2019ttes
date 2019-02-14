@@ -1947,8 +1947,9 @@ img {
 ====================*/
 #mu-footer {
   display: inline;
-  float: left;
+  float: right;
   width: 100%;
+  text-align: center;
 }
 #mu-footer .mu-footer-top {
   background-color: #333;
@@ -1967,15 +1968,22 @@ img {
   float: left;
   width: 100%;
 }
+#mu-footer .mu-footer-top .mu-footer-top-area .mu-footer-widget h3 {
+  color: #fff;
+  margin-bottom: 15px;
+  font-size: 36px;
+  text-transform: uppercase;
+}
 #mu-footer .mu-footer-top .mu-footer-top-area .mu-footer-widget h4 {
   color: #fff;
   margin-bottom: 15px;
+  font-size: 28px;
   text-transform: uppercase;
 }
 #mu-footer .mu-footer-top .mu-footer-top-area .mu-footer-widget ul li a {
   color: #f9f9f9;
   display: inline-block;
-  font-size: 14px;
+  font-size: 20px;
   font-weight: normal;
   padding: 5px 0 5px 15px;
   position: relative;
@@ -2042,7 +2050,6 @@ img {
 #mu-footer .mu-footer-bottom .mu-footer-bottom-area {
   display: inline;
   float: left;
-  text-align: center;
   width: 100%;
 }
 #mu-footer .mu-footer-bottom .mu-footer-bottom-area p {
