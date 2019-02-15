@@ -17,7 +17,7 @@ p {
   border: 2px solid #ff4dff;
 }
 
-.mu-read-more-btn:hover, .mu-read-more-btn:focus {
+.mu-default-btn:hover, .mu-default-btn:focus {
   background-color: #ff4dff;
   border-color: #ff4dff;
 }

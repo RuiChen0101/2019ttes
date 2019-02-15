@@ -83,7 +83,7 @@ img {
   border: none;
 }
 
-.mu-read-more-btn {
+.mu-default-btn {
   border: 1px solid #fff;
   color: #fff;
   display: inline-block;
@@ -96,7 +96,7 @@ img {
   -o-transition: all 0.5s;
   transition: all 0.5s;
 }
-.mu-read-more-btn:hover, .mu-read-more-btn:focus {
+.mu-default-btn:hover, .mu-default-btn:focus {
   color: #fff;
 }
 
@@ -373,6 +373,29 @@ CONTEST CONTENT SECTION
   float: left;
   font-size: 46px;
   width: 100%;
+}
+
+#mu-contest-content .mu-contest-content-area .mu-contest-content-bottom {
+  margin: 100px 0;
+}
+
+#mu-contest-content .mu-contest-content-area .mu-contest-content-bottom .mu-contest-content-single-game {
+  width: 100%;
+  padding: 15px;
+  text-align: center;
+}
+
+#mu-contest-content .mu-contest-content-area .mu-contest-content-bottom .mu-contest-content-single-game img{
+  width: 100%;
+  border: 3px #ff4dff solid;
+}
+
+#mu-contest-content .mu-contest-content-area .mu-contest-content-bottom .mu-contest-content-single-game h2{
+  font-size: 20px;
+}
+#mu-contest-content .mu-contest-content-area .mu-contest-content-bottom .mu-contest-content-single-game a{
+  width: 80%;
+  margin-top: 20px;
 }
 
 /*==================
@@ -960,7 +983,16 @@ CONTEST CONTENT SECTION
 
   #mu-about-us .mu-about-us-area .mu-about-us-right {
     margin-top: 30px;
+    padding-left: 15px;
     margin-left: 0px;
+  }
+
+  #mu-contest-content .mu-contest-content-area .mu-contest-content-bottom .mu-contest-content-single-game h2{
+    font-size: 16px;
+  }
+
+  #mu-contest-content .mu-contest-content-area .mu-contest-content-bottom .mu-contest-content-single-game a{
+    font-size: 12px;
   }
 
   #mu-abtus-counter {
@@ -1057,6 +1089,24 @@ CONTEST CONTENT SECTION
 
   #mu-about-us .mu-about-us-area .mu-about-us-right iframe {
     height: 250px;
+  }
+
+  #mu-contest-content .mu-contest-content-area .mu-contest-content-bottom {
+    margin: 0;
+  }
+
+  #mu-contest-content .mu-contest-content-area .mu-contest-content-bottom .mu-contest-content-single-game {
+    width: 100vw;
+    margin-top: 100px;
+    padding:0 30px;
+  }
+
+  #mu-contest-content .mu-contest-content-area .mu-contest-content-bottom .mu-contest-content-single-game img{
+    width: 70%;
+  }
+
+  #mu-contest-content .mu-contest-content-area .mu-contest-content-bottom .mu-contest-content-single-game a{
+    width: 50%;
   }
 
   #mu-abtus-counter {
