@@ -874,6 +874,17 @@ img {
 }
 
 /*==================
+    Divider Tool
+====================*/
+#mu_divider{
+  display: inline;
+  float: left;
+  height: 5px;
+  width: 100%;
+  margin-bottom: 3px;
+}
+
+/*==================
  RESPONSIVE DESIGN
 ====================*/
 @media (max-width: 1920px) {
