@@ -60,7 +60,6 @@ ul {
 a {
   font-family: "Montserrat", Microsoft JhengHei, sans-serif;
   text-decoration: none;
-  color: #ff4dff;
 }
 
 a:hover, a:focus {
@@ -227,30 +226,31 @@ img {
   display: inline;
   float: left;
   width: 100%;
-  height: 100%;
   position: relative;
 }
 #mu-slider .mu-slider-single .mu-slider-img {
   display: inline;
-  float: left;
-  height: 100%;
   width: 100%;
+  height: 100%;
 }
 #mu-slider .mu-slider-single .mu-slider-img:after {
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: rgba(0, 0, 0, 0.6);
+  content: '';
   position: absolute;
   left: 0;
   right: 0;
   top: 0;
   bottom: 0;
+  height: 100%;
+  width: 100%;
 }
 #mu-slider .mu-slider-single .mu-slider-img figure {
   height: 100%;
   width: 100%;
 }
 #mu-slider .mu-slider-single .mu-slider-img figure img {
-  height: 100%;
   width: 100%;
+  height: 100%;
 }
 #mu-slider .mu-slider-single .mu-slider-content {
   color: #fff;
@@ -263,6 +263,7 @@ img {
   text-align: center;
 }
 #mu-slider .mu-slider-single .mu-slider-content h4 {
+  font-size: 24px;
   letter-spacing: 1px;
   margin-bottom: 0;
 }
@@ -270,15 +271,15 @@ img {
   display: inline-block;
   height: 1px;
   width: 100px;
+  margin-bottom: 3px;
 }
 #mu-slider .mu-slider-single .mu-slider-content h2 {
-  color:#FFF;
-  font-size: 50px;
+  font-size: 60px;
   line-height: 80px;
   margin-bottom: 10px;
 }
 #mu-slider .mu-slider-single .mu-slider-content p {
-  font-size: 18px;
+  font-size: 24px;
   letter-spacing: 0.5px;
   line-height: 28px;
 }
@@ -295,32 +296,52 @@ img {
   color: #fff;
   font-size: 25px;
 }
-
-
-/*==== about us dynamic video player ====*/
-#about-video-popup {
-  background-color: rgba(0, 0, 0, 0.9);
-  position: fixed;
-  left: 0;
-  top: 0;
-  right: 0;
-  text-align: center;
-  bottom: 0;
-  z-index: 99999;
+/*==================
+ ABOUT SECTION
+====================*/
+#mu-about-us {
+  display: inline;
+  float: left;
+  width: 100%;
+  margin: 100px 0;
 }
-#about-video-popup span {
-  color: #fff;
-  cursor: pointer;
-  float: right;
-  font-size: 30px;
-  margin-right: 50px;
-  margin-top: 50px;
+#mu-about-us .mu-about-us-area {
+  display: inline;
+  float: left;
+  width: 100%;
 }
-#about-video-popup iframe {
-  background: url(../img/loader.gif) center center no-repeat;
-  margin: 10% auto;
-  width: 650px;
-  height: 450px;
+#mu-about-us .mu-about-us-area .mu-about-us-left {
+  display: inline;
+  float: left;
+  width: 100%;
+}
+#mu-about-us .mu-about-us-area .mu-about-us-left h2 {
+  font-size: 40px;
+  margin-bottom: 20px;
+  text-align: left;
+}
+#mu-about-us .mu-about-us-area .mu-about-us-left ul {
+  margin-left: 25px;
+  margin-bottom: 15px;
+}
+#mu-about-us .mu-about-us-area .mu-about-us-left ul li {
+  line-height: 30px;
+  list-style: circle;
+}
+#mu-about-us .mu-about-us-area .mu-about-us-right {
+  display: inline;
+  margin-left: 15px;
+  float: left;
+  width: 100%;
+  display: block;
+  background-color: transparent;
+}
+
+#mu-about-us .mu-about-us-area .mu-about-us-right iframe {
+  display: block;
+  width: 100%;
+  height: 425px;
+  position: relative;
 }
 
 .mu-title {
@@ -328,17 +349,6 @@ img {
   float: left;
   text-align: center;
   width: 100%;
-}
-.mu-title h2 {
-  color: #000;
-  margin-bottom: 10px;
-  text-transform: uppercase;
-}
-.mu-title p {
-  color: #555;
-  letter-spacing: 0.3px;
-  line-height: 1.7;
-  padding: 0 120px;
 }
 
 /*==================
@@ -866,6 +876,11 @@ img {
 /*==================
  RESPONSIVE DESIGN
 ====================*/
+@media (max-width: 1920px) {
+  #mu-slider .mu-slider-single .mu-slider-img figure img {
+    width: auto;
+  }
+}
 @media (max-width: 1199px) {
   #mu-slider .mu-slider-single .mu-slider-content {
     padding: 0 10%;
@@ -881,16 +896,18 @@ img {
     padding: 25px 10px;
   }
 
+  #mu-slider{
+    height: 400px;
+  }
+  #mu-slider .mu-slider-single .mu-slider-content {
+    top: 20%;
+    padding: 0 2%;
+  }
   #mu-slider .mu-slider-single .mu-slider-content h2 {
     font-size: 35px;
     line-height: 65px;
     margin-bottom: 0;
   }
-
-  #mu-slider .mu-slider-single .mu-slider-img {
-    height: 400px;
-  }
-
   #mu-slider .mu-slider-single .mu-slider-content a {
     font-size: 15px;
     margin-top: 5px;
@@ -903,11 +920,12 @@ img {
   }
 
   #mu-about-us {
-    padding: 60px 0;
+    margin: 60px 0px;
   }
 
   #mu-about-us .mu-about-us-area .mu-about-us-right {
     margin-top: 30px;
+    margin-left: 0px;
   }
 
   #mu-abtus-counter {
@@ -997,6 +1015,15 @@ img {
     line-height: 60px;
   }
 
+  #mu-about-us .mu-about-us-area .mu-about-us-right, #mu-about-us .mu-about-us-area .mu-about-us-left {
+    padding: 0px 10px;
+    width: 100vw;
+  }
+
+  #mu-about-us .mu-about-us-area .mu-about-us-right iframe {
+    height: 250px;
+  }
+
   #mu-abtus-counter {
     background-position: center center;
     background-size: cover;
@@ -1081,28 +1108,28 @@ img {
   }
 }
 @media (max-width: 640px) {
-  #mu-menu .navbar-header .navbar-brand img {
-    display: none;
+  #mu-slider{
+    height: 350px;
   }
+
   #mu-slider .mu-slider-single .mu-slider-content h2 {
     font-size: 25px;
     line-height: 50px;
   }
-
-  #mu-slider .mu-slider-single .mu-slider-img {
-    height: 350px;
-  }
-
   #mu-slider .mu-slider-single .mu-slider-content h4 {
     letter-spacing: 0;
   }
-  #mu-slider .mu-slider-single .mu-slider-img figure img {
-    width: auto;
+  #mu-slider .mu-slider-single .mu-slider-content span {
+    width: 50px;
   }
 }
 @media (max-width: 480px) {
   #mu-menu .navbar-header .navbar-brand{
     font-size: 16px;
+  }
+
+  #mu-slider{
+    height: 270px;
   }
 
   #mu-slider .mu-slider-single .mu-slider-content h2 {
@@ -1121,20 +1148,13 @@ img {
   }
 
   #mu-slider .mu-slider-single .mu-slider-content {
+    top: 20%;
     padding: 0 2%;
-  }
-
-  #mu-slider .mu-slider-single .mu-slider-content {
-    top: 5%;
   }
 
   #mu-slider .slick-prev, #mu-slider .slick-next {
     height: 40px;
     width: 40px;
-  }
-
-  #mu-slider .mu-slider-single .mu-slider-img {
-    height: 270px;
   }
 
   #about-video-popup iframe {
@@ -1149,6 +1169,9 @@ img {
   }
 }
 @media (max-width: 360px) {
+  #mu-menu .navbar-header .navbar-brand img {
+    display: none;
+  }
   #mu-menu .navbar-header .navbar-brand{
     font-size: 12px;
   }

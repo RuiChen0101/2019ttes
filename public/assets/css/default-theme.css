@@ -3,6 +3,15 @@
 Template Design By MarkUps.
 Author URI : http://www.markups.io/
 ========================================*/
+a {
+  color: #ff4dff;
+}
+h1, h2, h3, h4, h5, h6,span {
+  color: #ff4dff;
+}
+p {
+  color: #fcfcfc;
+}
 .scrollToTop {
   background-color: #ff4dff;
   border: 2px solid #ff4dff;
@@ -16,10 +25,6 @@ Author URI : http://www.markups.io/
 .mu-post-btn:hover, .mu-post-btn:focus {
   background-color: #ff4dff;
   border-color: #47e8ff;
-}
-
-#mu-header .mu-header-area .mu-header-top-right .mu-top-social-nav li a:hover, #mu-header .mu-header-area .mu-header-top-right .mu-top-social-nav li a:focus {
-  color: #ff4dff;
 }
 
 #mu-menu .navbar-header .navbar-brand i {
@@ -46,16 +51,24 @@ Author URI : http://www.markups.io/
   background-color: transparent;
 }
 
-#mu-search .mu-search-area .mu-search-close {
-  background-color: #ff4dff;
-}
-
 #mu-slider .mu-slider-single .mu-slider-content span {
-  background-color: #ff4dff;
+  background-color: #47e8ff;
+}
+#mu-slider .mu-slider-single .mu-slider-content h4, #mu-slider .mu-slider-single .mu-slider-content h2, #mu-slider .mu-slider-single .mu-slider-content p {
+  color: #fcfcfc;
 }
 #mu-slider .slick-prev,
 #mu-slider .slick-next {
   background-color: #ff4dff;
+}
+#mu-about-us .mu-about-us-area .mu-about-us-left p {
+  color: #fcfcfc;
+}
+#mu-about-us .mu-about-us-area .mu-about-us-left ul li {
+  color: #fcfcfc;
+}
+.mu-title h2{
+  color: #fcfcfc;
 }
 
 #mu-features .mu-features-area .mu-features-content .mu-single-feature span {
@@ -65,48 +78,6 @@ Author URI : http://www.markups.io/
 #mu-features .mu-features-area .mu-features-content .mu-single-feature a:hover, #mu-features .mu-features-area .mu-features-content .mu-single-feature a:focus {
   color: #ff4dff;
   border-color: #ff4dff;
-}
-
-#mu-latest-courses .mu-latest-courses-area .mu-latest-courses-content .slick-dots .slick-active {
-  background-color: #ff4dff;
-}
-
-.mu-latest-course-single .mu-latest-course-img .mu-latest-course-imgcaption a:hover, .mu-latest-course-single .mu-latest-course-img .mu-latest-course-imgcaption a:focus {
-  color: #ff4dff;
-}
-.mu-latest-course-single .mu-latest-course-single-content h4 a:hover, .mu-latest-course-single .mu-latest-course-single-content h4 a:focus {
-  color: #ff4dff;
-}
-.mu-latest-course-single .mu-latest-course-single-content .mu-latest-course-single-contbottom .mu-course-details {
-  color: #ff4dff;
-}
-
-#mu-our-teacher .mu-our-teacher-area .mu-our-teacher-content .mu-our-teacher-single .mu-our-teacher-img .mu-our-teacher-social {
-  background-color: #ff4dff;
-}
-#mu-our-teacher .mu-our-teacher-area .mu-our-teacher-content .mu-our-teacher-single .mu-our-teacher-img .mu-our-teacher-social a:hover, #mu-our-teacher .mu-our-teacher-area .mu-our-teacher-content .mu-our-teacher-single .mu-our-teacher-img .mu-our-teacher-social a:focus {
-  color: #ff4dff;
-}
-
-#mu-testimonial .mu-testimonial-area .mu-testimonial-content .mu-testimonial-item .mu-testimonial-info span {
-  color: #ff4dff;
-}
-#mu-testimonial .mu-testimonial-area .mu-testimonial-content .slick-dots .slick-active {
-  background-color: #ff4dff;
-}
-
-.mu-blog-single-item .mu-blog-single-img .mu-blog-caption h3 a:hover {
-  color: #ff4dff;
-}
-.mu-blog-single-item .mu-blog-meta a:hover, .mu-blog-single-item .mu-blog-meta a:focus {
-  color: #ff4dff;
-}
-.mu-blog-single-item .mu-blog-description a:hover, .mu-blog-single-item .mu-blog-description a:focus {
-  border-color: #ff4dff;
-}
-
-#mu-page-breadcrumb .mu-page-breadcrumb-area .breadcrumb .active {
-  color: #ff4dff;
 }
 
 #mu-course-content {
@@ -195,25 +166,6 @@ Author URI : http://www.markups.io/
 }
 .mu-comments-area .comments .comments-pagination li a:hover, .mu-comments-area .comments .comments-pagination li a:focus {
   color: #ff4dff;
-}
-
-#mu-gallery .mu-gallery-area .mu-gallery-content {
-  width: 100%;
-}
-#mu-gallery .mu-gallery-area .mu-gallery-content .mu-gallery-top ul li {
-  background-color: #ff4dff;
-  border: 1px solid #ff4dff;
-}
-#mu-gallery .mu-gallery-area .mu-gallery-content .mu-gallery-top ul li:hover, #mu-gallery .mu-gallery-area .mu-gallery-content .mu-gallery-top ul li:focus {
-  color: #ff4dff;
-  border-color: #ff4dff;
-}
-#mu-gallery .mu-gallery-area .mu-gallery-content .mu-gallery-top ul .active {
-  color: #ff4dff;
-  border-color: #ff4dff;
-}
-#mu-gallery .mu-gallery-area .mu-gallery-content .mu-gallery-body ul li .mu-single-gallery .mu-single-gallery-item .mu-single-gallery-info .mu-single-gallery-info-inner a {
-  background-color: #ff4dff;
 }
 
 #mu-contact .mu-contact-area .mu-contact-content .mu-contact-left .contactform input[type="text"]:focus,
