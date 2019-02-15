@@ -350,6 +350,30 @@ img {
   text-align: center;
   width: 100%;
 }
+/*==================
+CONTEST CONTENT SECTION
+====================*/
+#mu-contest-content{
+  display: inline;
+  float: left;
+  width: 100%;
+  margin: 100px 0;
+}
+
+#mu-contest-content .mu-contest-content-area {
+  width: 100%;
+  text-align: center;
+}
+
+#mu-contest-content .mu-contest-content-area .mu-contest-content-title {
+  width: 100%;
+}
+
+#mu-contest-content .mu-contest-content-area .mu-contest-content-title h2{
+  float: left;
+  font-size: 46px;
+  width: 100%;
+}
 
 /*==================
  ABOUT US COUNTER SECTION
@@ -876,7 +900,7 @@ img {
 /*==================
     Divider Tool
 ====================*/
-#mu_divider{
+#mu-divider{
   display: inline;
   float: left;
   height: 5px;
