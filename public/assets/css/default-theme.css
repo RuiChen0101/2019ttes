@@ -6,6 +6,9 @@ Author URI : http://www.markups.io/
 a {
   color: #ff4dff;
 }
+a:hover {
+  color: #47e8ff;
+}
 h1, h2, h3, h4, h5, h6,span {
   color: #ff4dff;
 }
@@ -83,7 +86,7 @@ p {
 #mu-rule .mu-rule-content{
   border: 3px solid #47e8ff;
 }
-#mu-rule .mu-rule-content .mu-rule-tabcontent h2, #mu-rule .mu-rule-content .mu-rule-tabcontent h3, #mu-rule .mu-rule-content .mu-rule-tabcontent p{
+#mu-rule .mu-rule-content .mu-rule-tabcontent h2, #mu-rule .mu-rule-content .mu-rule-tabcontent .mu-single-rule, #mu-rule .mu-rule-content .mu-rule-tabcontent .mu-single-rule li{
   color: #fcfcfc;
 }
 #mu-features .mu-features-area .mu-features-content .mu-single-feature span {

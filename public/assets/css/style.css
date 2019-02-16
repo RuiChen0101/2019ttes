@@ -55,6 +55,10 @@ ul {
   list-style: none;
 }
 
+ul li{
+  font-family: "Montserrat", Microsoft JhengHei, sans-serif;
+}
+
 a {
   font-family: "Montserrat", Microsoft JhengHei, sans-serif;
   text-decoration: none;
@@ -489,10 +493,13 @@ CONTEST CONTENT SECTION
 #mu-rule .mu-rule-content .mu-rule-tabcontent h2{
   font-size: 30px;
 }
-#mu-rule .mu-rule-content .mu-rule-tabcontent h3{
+#mu-rule .mu-rule-content .mu-rule-tabcontent .mu-single-rule{
+  margin-left: 20px;
   font-size: 24px;
 }
-#mu-rule .mu-rule-content .mu-rule-tabcontent p{
+#mu-rule .mu-rule-content .mu-rule-tabcontent .mu-single-rule li{
+  line-height: 2;
+  margin-left: 20px;
   font-size: 18px;
 }
 
@@ -915,6 +922,7 @@ CONTEST CONTENT SECTION
   float: left;
   height: 5px;
   width: 100%;
+  margin: 20px 0;
 }
 
 /*==================
@@ -1161,13 +1169,16 @@ CONTEST CONTENT SECTION
   #mu-rule .mu-rule-tab-bar button {
     width: 100vw;
   }
+  #mu-rule .mu-rule-content{
+    padding: 25px 20px;
+  }
   #mu-rule .mu-rule-content .mu-rule-tabcontent h2{
     font-size: 26px;
   }
-  #mu-rule .mu-rule-content .mu-rule-tabcontent h3{
+  #mu-rule .mu-rule-content .mu-rule-tabcontent .mu-single-rule{
     font-size: 20px;
   }
-  #mu-rule .mu-rule-content .mu-rule-tabcontent p{
+  #mu-rule .mu-rule-content .mu-rule-tabcontent .mu-single-rule li{
     font-size: 14px;
   }
 }
