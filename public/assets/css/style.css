@@ -407,48 +407,65 @@ CONTEST CONTENT SECTION
 /*==================
  ABOUT US COUNTER SECTION
 ====================*/
-#mu-abtus-counter {
-  background-image: url("../img/counter-bg.jpg");
+#mu-abtlast-counter {
+  background-image: url("../img/abtlast_counter_bg.jpg");
   background-repeat: no-repeat;
-  background-size: 100%;
+  background-position: center;
+  background-size: cover;
   display: inline;
   float: left;
-  padding: 100px 0;
+  padding: 70px 0;
   width: 100%;
 }
-#mu-abtus-counter .mu-abtus-counter-area {
+#mu-abtlast-counter .mu-abtlast-counter-area {
   display: inline;
   float: left;
   width: 100%;
 }
-#mu-abtus-counter .mu-abtus-counter-area .mu-abtus-counter-single {
-  border-right: 2px solid #888;
+#mu-abtlast-counter .mu-abtlast-counter-area .mu-abtlast-counter-Title {
+  display: inline;
+  float: left;
+  width: 100%;
+  margin-bottom: 20px;
+  text-align: center;
+}
+#mu-abtlast-counter .mu-abtlast-counter-area .mu-abtlast-counter-Title h3{
+  font-size: 36px;
+}
+#mu-abtlast-counter .mu-abtlast-counter-area .mu-abtlast-counter-single {
   display: inline;
   float: left;
   text-align: center;
   width: 100%;
 }
-#mu-abtus-counter .mu-abtus-counter-area .mu-abtus-counter-single span {
-  color: #fff;
+#mu-abtlast-counter .mu-abtlast-counter-area .mu-abtlast-counter-single span {
   display: inline-block;
   font-size: 50px;
 }
-#mu-abtus-counter .mu-abtus-counter-area .mu-abtus-counter-single h4 {
-  color: #fff;
+#mu-abtlast-counter .mu-abtlast-counter-area .mu-abtlast-counter-single h4 {
   font-size: 40px;
   font-weight: bold;
   margin-bottom: 5px;
   margin-top: 20px;
 }
-#mu-abtus-counter .mu-abtus-counter-area .mu-abtus-counter-single p {
-  color: #fff;
+#mu-abtlast-counter .mu-abtlast-counter-area .mu-abtlast-counter-single p {
   font-size: 18px;
   text-transform: uppercase;
 }
-#mu-abtus-counter .mu-abtus-counter-area .no-border {
+#mu-abtlast-counter .mu-abtlast-counter-area .no-border {
   border: none;
 }
-
+#mu-abtlast-counter .mu-abtlast-counter-area .mu-abtlast-counter-record {
+  display: inline;
+  float: left;
+  width: 100%;
+  margin-top: 30px;
+  padding: 0px 150px;
+  text-align: center;
+}
+#mu-abtlast-counter .mu-abtlast-counter-area .mu-abtlast-counter-record .mu-default-btn{
+  width: 100%;
+}
 /*==================
  RULE PAGE
 ====================*/
@@ -490,6 +507,10 @@ CONTEST CONTENT SECTION
   animation: fadeEffect 1s;
 }
 
+#mu-rule .mu-rule-content .mu-rule-tabcontent #mu-divider{
+  margin: 20px 0px;
+}
+
 #mu-rule .mu-rule-content .mu-rule-tabcontent h2{
   font-size: 30px;
 }
@@ -513,245 +534,6 @@ CONTEST CONTENT SECTION
   font-size: 18px;
 }
 
-/*==================
- COURSES PAGE
-====================*/
-#mu-page-breadcrumb {
-  background-color: #333;
-  display: inline;
-  float: left;
-  padding: 30px 0;
-  width: 100%;
-}
-#mu-page-breadcrumb .mu-page-breadcrumb-area {
-  display: inline;
-  float: left;
-  width: 100%;
-}
-#mu-page-breadcrumb .mu-page-breadcrumb-area h2 {
-  text-align: center;
-  color: #fff;
-}
-#mu-page-breadcrumb .mu-page-breadcrumb-area .breadcrumb {
-  background-color: transparent;
-  border-radius: 0;
-  margin-bottom: 0;
-  margin-top: 10px;
-  text-align: center;
-}
-#mu-page-breadcrumb .mu-page-breadcrumb-area .breadcrumb li {
-  color: #fff;
-}
-#mu-page-breadcrumb .mu-page-breadcrumb-area .breadcrumb li a {
-  color: #fff;
-}
-
-#mu-course-content {
-  background-color: #f8f8f8;
-  display: inline;
-  float: left;
-  padding: 100px 0;
-  width: 100%;
-}
-#mu-course-content .mu-course-content-area {
-  display: inline;
-  float: left;
-  width: 100%;
-}
-#mu-course-content .mu-course-content-area .mu-course-container {
-  display: inline;
-  float: left;
-  width: 100%;
-}
-#mu-course-content .mu-course-content-area .mu-course-container .mu-latest-course-single {
-  border: 1px solid #ccc;
-  margin-bottom: 30px;
-}
-#mu-course-content .mu-course-content-area .mu-sidebar {
-  display: inline;
-  float: left;
-  width: 100%;
-}
-#mu-course-content .mu-course-content-area .mu-sidebar .mu-single-sidebar {
-  background-color: #FFF;
-  display: inline;
-  float: left;
-  margin-bottom: 25px;
-  padding: 0 10px 10px;
-  width: 100%;
-}
-#mu-course-content .mu-course-content-area .mu-sidebar .mu-single-sidebar .mu-sidebar-catg {
-  padding-left: 15px;
-}
-#mu-course-content .mu-course-content-area .mu-sidebar .mu-single-sidebar .mu-sidebar-catg li a {
-  color: #333;
-  display: inline-block;
-  font-size: 15px;
-  font-weight: normal;
-  padding: 5px 0 5px 15px;
-  position: relative;
-  text-transform: capitalize;
-  -webkit-transition: all 0.5s ease 0s;
-  -moz-transition: all 0.5s ease 0s;
-  -ms-transition: all 0.5s ease 0s;
-  -o-transition: all 0.5s ease 0s;
-  transition: all 0.5s ease 0s;
-}
-#mu-course-content .mu-course-content-area .mu-sidebar .mu-single-sidebar .mu-sidebar-catg li a:hover, #mu-course-content .mu-course-content-area .mu-sidebar .mu-single-sidebar .mu-sidebar-catg li a:focus {
-  margin-left: 5px;
-}
-#mu-course-content .mu-course-content-area .mu-sidebar .mu-single-sidebar .mu-sidebar-catg li a:before {
-  content: "\f101";
-  font-family: FontAwesome;
-  left: 0;
-  position: absolute;
-  top: 5px;
-}
-#mu-course-content .mu-course-content-area .mu-sidebar .mu-single-sidebar .mu-sidebar-popular-courses {
-  display: inline;
-  float: left;
-  margin-top: 10px;
-  width: 100%;
-}
-#mu-course-content .mu-course-content-area .mu-sidebar .mu-single-sidebar .mu-sidebar-popular-courses .media .media-left .media-object {
-  width: 70px;
-  height: 60px;
-}
-#mu-course-content .mu-course-content-area .mu-sidebar .mu-single-sidebar .mu-sidebar-popular-courses .media .media-body .media-heading {
-  font-size: 16px;
-}
-#mu-course-content .mu-course-content-area .mu-sidebar .mu-single-sidebar .mu-sidebar-popular-courses .media .media-body .media-heading a {
-  -webkit-transition: all 0.5s;
-  -moz-transition: all 0.5s;
-  -ms-transition: all 0.5s;
-  -o-transition: all 0.5s;
-  transition: all 0.5s;
-}
-#mu-course-content .mu-course-content-area .mu-sidebar .mu-single-sidebar .mu-sidebar-popular-courses .media .media-body .popular-course-price {
-  font-size: 14px;
-}
-#mu-course-content .mu-course-content-area .mu-sidebar .mu-single-sidebar .mu-sidebar-archives li a:before {
-  content: '\f0da';
-}
-#mu-course-content .mu-course-content-area .mu-sidebar .mu-single-sidebar .mu-sidebar-archives li a span {
-  margin-left: 5px;
-}
-#mu-course-content .mu-course-content-area .mu-sidebar .mu-single-sidebar .tag-cloud {
-  display: inline;
-  float: left;
-  margin-top: 5px;
-  width: 100%;
-}
-#mu-course-content .mu-course-content-area .mu-sidebar .mu-single-sidebar .tag-cloud a {
-  border-bottom: 1px solid #ccc;
-  display: inline-block;
-  font-size: 15px;
-  letter-spacing: 0.3px;
-  margin: 0 5px 10px;
-  padding: 5px;
-  -webkit-transition: all 0.5s;
-  -moz-transition: all 0.5s;
-  -ms-transition: all 0.5s;
-  -o-transition: all 0.5s;
-  transition: all 0.5s;
-}
-#mu-course-content .mu-course-content-area .mu-course-details {
-  background-color: #FFF;
-}
-#mu-course-content .mu-course-content-area .mu-course-details .mu-latest-course-single {
-  border: none;
-}
-#mu-course-content .mu-course-content-area .mu-course-details .mu-latest-course-single .mu-latest-course-imgcaption {
-  background-color: #FFF;
-}
-#mu-course-content .mu-course-content-area .mu-course-details .mu-latest-course-single .mu-latest-course-single-content h2 {
-  line-height: 1.7;
-  margin-bottom: 20px;
-}
-#mu-course-content .mu-course-content-area .mu-course-details .mu-latest-course-single .mu-latest-course-single-content h4 {
-  border-bottom: 1px solid #ccc;
-  padding-bottom: 10px;
-}
-#mu-course-content .mu-course-content-area .mu-course-details .mu-latest-course-single .mu-latest-course-single-content p {
-  font-size: 15px;
-}
-#mu-course-content .mu-course-content-area .mu-course-details .mu-latest-course-single .mu-latest-course-single-content ul {
-  margin-bottom: 30px;
-}
-#mu-course-content .mu-course-content-area .mu-course-details .mu-latest-course-single .mu-latest-course-single-content ul li {
-  margin-bottom: 10px;
-}
-#mu-course-content .mu-course-content-area .mu-course-details .mu-latest-course-single .mu-latest-course-single-content ul li span:first-child {
-  display: inline-block;
-  min-width: 150px;
-  float: left;
-}
-#mu-course-content .mu-course-content-area .mu-course-details .mu-latest-course-single .mu-latest-course-single-content .table {
-  margin-top: 10px;
-}
-
-.mu-pagination {
-  display: inline;
-  float: left;
-  width: 100%;
-}
-.mu-pagination .pagination li:first-child a {
-  border-radius: 0;
-}
-.mu-pagination .pagination li:first-child a span {
-  margin-right: 5px;
-}
-.mu-pagination .pagination li:last-child a {
-  border-radius: 0;
-}
-.mu-pagination .pagination li:last-child a span {
-  margin-left: 5px;
-}
-.mu-pagination .pagination li a {
-  color: #333;
-  margin: 0 5px;
-  -webkit-transition: all 0.5s;
-  -moz-transition: all 0.5s;
-  -ms-transition: all 0.5s;
-  -o-transition: all 0.5s;
-  transition: all 0.5s;
-}
-.mu-pagination .pagination li a:hover, .mu-pagination .pagination li a:focus {
-  color: #fff;
-}
-.mu-pagination .pagination .active a {
-  color: #fff;
-}
-
-.mu-related-item {
-  display: inline;
-  float: left;
-  margin-top: 30px;
-  width: 100%;
-}
-.mu-related-item .mu-related-item-area {
-  margin-top: 30px;
-}
-.mu-related-item .mu-related-item-area .mu-latest-course-single {
-  border: 1px solid #ccc;
-}
-.mu-related-item .mu-related-item-area .mu-blog-single-item {
-  background-color: #FFF;
-}
-.mu-related-item .mu-related-item-area .mu-blog-single-item .mu-blog-caption {
-  padding: 0 15px;
-}
-.mu-related-item .mu-related-item-area .mu-blog-single-item .mu-blog-meta {
-  padding: 0 15px;
-}
-.mu-related-item .mu-related-item-area .mu-blog-single-item .mu-blog-description {
-  padding: 0 15px 20px;
-}
-.mu-related-item .mu-related-item-area #mu-related-item-slide .slick-prev,
-.mu-related-item .mu-related-item-area #mu-related-item-slide .slick-next {
-  height: 50px;
-  width: 50px;
-}
 /*==================
  ERROR PAGE
 ====================*/
@@ -808,6 +590,7 @@ CONTEST CONTENT SECTION
   display: inline;
   float: right;
   width: 100%;
+  margin-top: 100px;
   text-align: center;
 }
 #mu-footer .mu-footer-top {
@@ -876,33 +659,6 @@ CONTEST CONTENT SECTION
   margin-top: 10px;
   width: 100%;
 }
-#mu-footer .mu-footer-top .mu-footer-top-area .mu-footer-widget .mu-subscribe-form input[type="email"] {
-  border: 1px solid #ccc;
-  border-radius: 4px;
-  color: #000;
-  font-size: 15px;
-  height: 35px;
-  margin-bottom: 20px;
-  padding: 5px;
-  width: 100%;
-  -webkit-transition: all 0.5s;
-  -moz-transition: all 0.5s;
-  -ms-transition: all 0.5s;
-  -o-transition: all 0.5s;
-  transition: all 0.5s;
-}
-#mu-footer .mu-footer-top .mu-footer-top-area .mu-footer-widget .mu-subscribe-form .mu-subscribe-btn {
-  color: #fff;
-  border: medium none;
-  border-radius: 4px;
-  font-size: 14px;
-  letter-spacing: 0.5px;
-  padding: 5px 10px;
-}
-#mu-footer .mu-footer-top .mu-footer-top-area .mu-footer-widget address p {
-  font-weight: lighter;
-  letter-spacing: 0.5px;
-}
 #mu-footer .mu-footer-bottom {
   background-color: #222;
   display: inline;
@@ -932,7 +688,6 @@ CONTEST CONTENT SECTION
   float: left;
   height: 5px;
   width: 100%;
-  margin: 20px 0;
 }
 
 /*==================
@@ -999,16 +754,16 @@ CONTEST CONTENT SECTION
     font-size: 12px;
   }
 
-  #mu-abtus-counter {
+  #mu-abtlast-counter {
     background-size: 100% 100%;
     padding: 60px 0;
   }
 
-  #mu-abtus-counter .mu-abtus-counter-area .mu-abtus-counter-single span {
+  #mu-abtlast-counter .mu-abtlast-counter-area .mu-abtlast-counter-single span {
     font-size: 40px;
   }
 
-  #mu-abtus-counter .mu-abtus-counter-area .mu-abtus-counter-single h4 {
+  #mu-abtlast-counter .mu-abtlast-counter-area .mu-abtlast-counter-single h4 {
     font-size: 30px;
     margin-top: 15px;
   }
@@ -1019,10 +774,6 @@ CONTEST CONTENT SECTION
 
   #mu-rule .mu-rule-tab-bar button {
     font-size: 16px;
-  }
-
-  #mu-course-content .mu-course-content-area .mu-sidebar {
-    margin-top: 30px;
   }
 }
 @media (max-width: 767px) {
@@ -1091,22 +842,13 @@ CONTEST CONTENT SECTION
     width: 50%;
   }
 
-  #mu-abtus-counter {
+  #mu-abtlast-counter {
     background-position: center center;
     background-size: cover;
   }
 
-  #mu-abtus-counter .mu-abtus-counter-area .mu-abtus-counter-single {
-    border: medium none;
+  #mu-abtlast-counter .mu-abtlast-counter-area .mu-abtlast-counter-single {
     margin-bottom: 25px;
-  }
-
-  #mu-features .mu-features-area .mu-features-content .mu-single-feature {
-    text-align: center;
-  }
-
-  #mu-features .mu-features-area .mu-features-content .mu-single-feature h4::after {
-    display: none;
   }
 
   #mu-footer .mu-footer-top .mu-footer-top-area .mu-footer-widget {
@@ -1130,20 +872,9 @@ CONTEST CONTENT SECTION
   #mu-footer .mu-footer-top .mu-footer-top-area .mu-footer-widget ul li a {
     font-size: 12px;
   }
-
-  #mu-footer .mu-footer-top .mu-footer-top-area .mu-footer-widget .mu-subscribe-form input[type="email"] {
-    width: 50%;
-    margin-right: 10px;
-  }
-
-  #mu-course-content {
-    padding: 50px 0;
-  }
-
   #mu-error {
     padding: 50px 0;
   }
-
   #mu-error .mu-error-area h2 {
     font-size: 150px;
     line-height: 1.5;
@@ -1192,6 +923,19 @@ CONTEST CONTENT SECTION
     font-size: 14px;
   }
 }
+@media (max-width: 570px) {
+  #mu-abtlast-counter .mu-abtlast-counter-area .mu-abtlast-counter-record {
+    padding: 0px 30px;
+  }
+  #mu-abtlast-counter .mu-abtlast-counter-area .mu-abtlast-counter-single {
+    border: none;
+    border-bottom: 3px solid #47e8ff;
+    width: 100vw;
+  }
+  #mu-abtlast-counter .mu-abtlast-counter-area .no-border {
+    border: none;
+  }
+}
 @media (max-width: 480px) {
   #mu-menu .navbar-header .navbar-brand{
     font-size: 16px;
@@ -1224,17 +968,6 @@ CONTEST CONTENT SECTION
   #mu-slider .slick-prev, #mu-slider .slick-next {
     height: 40px;
     width: 40px;
-  }
-
-  #about-video-popup iframe {
-    height: 300px;
-    margin: 5% auto;
-    width: 80%;
-  }
-
-  #mu-footer .mu-footer-top .mu-footer-top-area .mu-footer-widget .mu-subscribe-form input[type="email"] {
-    margin-right: 0;
-    width: 100%;
   }
 }
 @media (max-width: 360px) {

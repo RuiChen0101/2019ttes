@@ -73,6 +73,21 @@ p {
 .mu-title h2{
   color: #fcfcfc;
 }
+#mu-abtlast-counter .mu-abtlast-counter-area .mu-abtlast-counter-Title h3{
+  color: #fcfcfc;
+}
+#mu-abtlast-counter .mu-abtlast-counter-area .mu-abtlast-counter-single {
+  border-right: 3px solid #47e8ff;
+}
+#mu-abtlast-counter .mu-abtlast-counter-area .mu-abtlast-counter-single span {
+  color: #fcfcfc;
+}
+#mu-abtlast-counter .mu-abtlast-counter-area .mu-abtlast-counter-single h4 {
+  color: #fcfcfc;
+}
+#mu-abtlast-counter .mu-abtlast-counter-area .mu-abtlast-counter-single p {
+  color: #fcfcfc;
+}
 #mu-rule .mu-rule-tab-bar{
   background-color: #1d1544;
 }
@@ -89,124 +104,12 @@ p {
 #mu-rule .mu-rule-content .mu-rule-tabcontent h2, #mu-rule .mu-rule-content .mu-rule-tabcontent .mu-single-rule, #mu-rule .mu-rule-content .mu-rule-tabcontent .mu-single-rule li{
   color: #fcfcfc;
 }
-#mu-features .mu-features-area .mu-features-content .mu-single-feature span {
-  color: #ff4dff;
-  border: 1px solid #ff4dff;
-}
-#mu-features .mu-features-area .mu-features-content .mu-single-feature a:hover, #mu-features .mu-features-area .mu-features-content .mu-single-feature a:focus {
-  color: #ff4dff;
-  border-color: #ff4dff;
-}
-
-#mu-course-content {
-  background-color: #f8f8f8;
-  display: inline;
-  float: left;
-  padding: 100px 0;
-  width: 100%;
-}
-#mu-course-content .mu-course-content-area {
-  display: inline;
-  float: left;
-  width: 100%;
-}
-#mu-course-content .mu-course-content-area .mu-course-container {
-  display: inline;
-  float: left;
-  width: 100%;
-}
-#mu-course-content .mu-course-content-area .mu-course-container .mu-latest-course-single {
-  border: 1px solid #ccc;
-  margin-bottom: 30px;
-}
-#mu-course-content .mu-course-content-area .mu-sidebar .mu-single-sidebar .mu-sidebar-catg li a:hover, #mu-course-content .mu-course-content-area .mu-sidebar .mu-single-sidebar .mu-sidebar-catg li a:focus {
-  color: #ff4dff;
-}
-#mu-course-content .mu-course-content-area .mu-sidebar .mu-single-sidebar .mu-sidebar-popular-courses .media .media-body .media-heading a:hover, #mu-course-content .mu-course-content-area .mu-sidebar .mu-single-sidebar .mu-sidebar-popular-courses .media .media-body .media-heading a:focus {
-  color: #ff4dff;
-}
-#mu-course-content .mu-course-content-area .mu-sidebar .mu-single-sidebar .tag-cloud a:hover, #mu-course-content .mu-course-content-area .mu-sidebar .mu-single-sidebar .tag-cloud a:focus {
-  color: #ff4dff;
-  border-color: #ff4dff;
-}
-
-.mu-pagination .pagination li a:hover, .mu-pagination .pagination li a:focus {
-  background-color: #ff4dff;
-  border-color: #ff4dff;
-}
-.mu-pagination .pagination .active a {
-  background-color: #ff4dff;
-  border-color: #ff4dff;
-}
-
-.mu-related-item {
-  display: inline;
-  float: left;
-  margin-top: 30px;
-  width: 100%;
-}
-.mu-related-item .mu-related-item-area #mu-related-item-slide .slick-prev,
-.mu-related-item .mu-related-item-area #mu-related-item-slide .slick-next {
-  background-color: #ff4dff;
-}
-
-.mu-blog-single .mu-blog-single-item .mu-blog-tags .mu-news-single-tagnav li a:hover, .mu-blog-single .mu-blog-single-item .mu-blog-tags .mu-news-single-tagnav li a:focus {
-  color: #ff4dff;
-}
-.mu-blog-single .mu-blog-single-item .mu-blog-social .mu-news-social-nav li a:hover, .mu-blog-single .mu-blog-single-item .mu-blog-social .mu-news-social-nav li a:focus {
-  background-color: #ff4dff;
-  border-color: #ff4dff;
-}
-
-.mu-blog-single-navigation a:hover, .mu-blog-single-navigation a:focus {
-  background-color: #ff4dff;
-  border-color: #ff4dff;
-}
-
-.mu-comments-area {
-  display: inline;
-  float: left;
-  width: 100%;
-  margin-top: 20px;
-}
-.mu-comments-area h3 {
-  margin-bottom: 20px;
-  padding: 20px;
-  border-bottom: 1px solid #ccc;
-  padding-left: 0;
-}
-.mu-comments-area .comments .commentlist li .reply-btn:hover, .mu-comments-area .comments .commentlist li .reply-btn:focus {
-  background-color: #ff4dff;
-  border-color: #ff4dff;
-}
-.mu-comments-area .comments .commentlist li .author-tag {
-  background-color: #ff4dff;
-}
-.mu-comments-area .comments .comments-pagination li a:hover, .mu-comments-area .comments .comments-pagination li a:focus {
-  color: #ff4dff;
-}
-
-#mu-contact .mu-contact-area .mu-contact-content .mu-contact-left .contactform input[type="text"]:focus,
-#mu-contact .mu-contact-area .mu-contact-content .mu-contact-left .contactform input[type="email"]:focus,
-#mu-contact .mu-contact-area .mu-contact-content .mu-contact-left .contactform input[type="url"]:focus {
-  border-color: #ff4dff;
-}
-#mu-contact .mu-contact-area .mu-contact-content .mu-contact-left .contactform textarea:focus {
-  border-color: #ff4dff;
-}
-
 #mu-error .mu-error-area h2 {
   color: #ff4dff;
 }
 
 #mu-footer .mu-footer-top .mu-footer-top-area .mu-footer-widget ul li a:hover, #mu-footer .mu-footer-top .mu-footer-top-area .mu-footer-widget ul li a:focus {
   color: #ff4dff;
-}
-#mu-footer .mu-footer-top .mu-footer-top-area .mu-footer-widget .mu-subscribe-form input[type="email"]:focus {
-  border-color: #ff4dff;
-}
-#mu-footer .mu-footer-top .mu-footer-top-area .mu-footer-widget .mu-subscribe-form .mu-subscribe-btn {
-  background-color: #ff4dff;
 }
 
 #mu-divider{
