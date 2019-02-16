@@ -70,7 +70,22 @@ p {
 .mu-title h2{
   color: #fcfcfc;
 }
-
+#mu-rule .mu-rule-tab-bar{
+  background-color: #1d1544;
+}
+#mu-rule .mu-rule-tab-bar button {
+  color: #ff4dff;
+}
+#mu-rule .mu-rule-tab-bar button:hover, #mu-rule .mu-rule-tab-bar button.active{
+  border-color: #47e8ff;
+  color: #47e8ff;
+}
+#mu-rule .mu-rule-content{
+  border: 3px solid #47e8ff;
+}
+#mu-rule .mu-rule-content .mu-rule-tabcontent h2, #mu-rule .mu-rule-content .mu-rule-tabcontent h3, #mu-rule .mu-rule-content .mu-rule-tabcontent p{
+  color: #fcfcfc;
+}
 #mu-features .mu-features-area .mu-features-content .mu-single-feature span {
   color: #ff4dff;
   border: 1px solid #ff4dff;

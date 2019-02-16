@@ -32,9 +32,7 @@
 
 /* BASE - Base tyles, Variables, Mixins, etc. */
 body {
-  font-family: "Roboto", sans-serif;
   font-size: 16px;
-  background-color: #1d1544;
   background-image: url("../img/main_theme_background.jpg");
   background-position: center;
   background-repeat: no-repeat;
@@ -69,6 +67,10 @@ a:hover, a:focus {
 
 h1, h2, h3, h4, h5, h6,span,p {
   color: #ff4dff;
+  font-family: "Montserrat", Microsoft JhengHei, sans-serif;
+}
+
+button{
   font-family: "Montserrat", Microsoft JhengHei, sans-serif;
 }
 
@@ -444,71 +446,56 @@ CONTEST CONTENT SECTION
 }
 
 /*==================
- FEATURES SECTION
+ RULE PAGE
 ====================*/
-#mu-features {
-  display: inline;
-  float: left;
-  padding: 100px 0;
-  width: 100%;
-}
-#mu-features .mu-features-area {
+#mu-rule{
   display: inline;
   float: left;
   width: 100%;
+  margin-bottom: 100px;
 }
-#mu-features .mu-features-area .mu-features-content {
-  display: inline;
-  float: left;
-  margin-top: 50px;
+
+#mu-rule .mu-rule-tab-bar{
   width: 100%;
 }
-#mu-features .mu-features-area .mu-features-content .mu-single-feature {
-  display: inline;
-  float: left;
-  margin-bottom: 30px;
-  margin-top: 30px;
-  padding: 0 10px;
+
+#mu-rule .mu-rule-tab-bar button {
+  border: none;
+  border-bottom: 2px solid transparent;
+  padding: 14px 14px;
+  background-color: inherit;
+  outline: none;
+  cursor: pointer;
+  font-size: 20px;
+  transition: 0.3s;
+}
+
+#mu-rule .mu-rule-content{
+  margin: 50px 0;
+  padding: 25px 50px;
+  background-color: rgba(0, 0, 0, 0.6);
   width: 100%;
 }
-#mu-features .mu-features-area .mu-features-content .mu-single-feature span {
-  font-size: 25px;
-  padding: 10px 15px;
+@keyframes fadeEffect {
+  from {opacity: 0;}
+  to {opacity: 1;}
 }
-#mu-features .mu-features-area .mu-features-content .mu-single-feature h4 {
-  margin-bottom: 15px;
-  margin-top: 15px;
-  padding-bottom: 10px;
-  position: relative;
+
+#mu-rule .mu-rule-content .mu-rule-tabcontent {
+  display: none;
+  animation: fadeEffect 1s;
 }
-#mu-features .mu-features-area .mu-features-content .mu-single-feature h4:after {
-  background-color: #333;
-  content: '';
-  left: 0;
-  right: 0;
-  bottom: 0;
-  height: 2px;
-  width: 70px;
-  position: absolute;
+
+#mu-rule .mu-rule-content .mu-rule-tabcontent h2{
+  font-size: 30px;
 }
-#mu-features .mu-features-area .mu-features-content .mu-single-feature p {
-  font-size: 15px;
-  letter-spacing: 0.3px;
-  line-height: 1.7;
+#mu-rule .mu-rule-content .mu-rule-tabcontent h3{
+  font-size: 24px;
 }
-#mu-features .mu-features-area .mu-features-content .mu-single-feature a {
-  border: 1px solid #888;
-  display: inline-block;
-  font-size: 14px;
-  margin-top: 10px;
-  padding: 5px 10px;
-  text-transform: uppercase;
-  -webkit-transition: all 0.5s;
-  -moz-transition: all 0.5s;
-  -ms-transition: all 0.5s;
-  -o-transition: all 0.5s;
-  transition: all 0.5s;
+#mu-rule .mu-rule-content .mu-rule-tabcontent p{
+  font-size: 18px;
 }
+
 /*==================
  COURSES PAGE
 ====================*/
@@ -928,7 +915,6 @@ CONTEST CONTENT SECTION
   float: left;
   height: 5px;
   width: 100%;
-  margin-bottom: 3px;
 }
 
 /*==================
@@ -1009,38 +995,16 @@ CONTEST CONTENT SECTION
     margin-top: 15px;
   }
 
-  #about-video-popup span {
-    top: 20px;
-    position: absolute;
-    right: 20px;
-  }
-
-  #mu-features {
-    padding: 60px 0;
-  }
-
   .mu-title p {
     padding: 0 20px;
   }
 
-  #mu-features .mu-features-area .mu-features-content {
-    margin-top: 30px;
+  #mu-rule .mu-rule-tab-bar button {
+    font-size: 16px;
   }
 
   #mu-course-content .mu-course-content-area .mu-sidebar {
     margin-top: 30px;
-  }
-
-  #mu-search .mu-search-area .mu-search-form input[type="search"] {
-    font-size: 30px;
-  }
-
-  #mu-search .mu-search-area .mu-search-close {
-    right: 50px;
-  }
-
-  #mu-search .mu-search-area {
-    padding: 35% 0;
   }
 }
 @media (max-width: 767px) {
@@ -1154,19 +1118,6 @@ CONTEST CONTENT SECTION
     margin-right: 10px;
   }
 
-  #about-video-popup iframe {
-    height: 350px;
-    width: 80%;
-  }
-
-  #about-video-popup span {
-    position: absolute;
-    right: 30px;
-    top: 30px;
-    margin-right: 0;
-    margin-top: 0;
-  }
-
   #mu-course-content {
     padding: 50px 0;
   }
@@ -1206,6 +1157,18 @@ CONTEST CONTENT SECTION
   }
   #mu-slider .mu-slider-single .mu-slider-content span {
     width: 50px;
+  }
+  #mu-rule .mu-rule-tab-bar button {
+    width: 100vw;
+  }
+  #mu-rule .mu-rule-content .mu-rule-tabcontent h2{
+    font-size: 26px;
+  }
+  #mu-rule .mu-rule-content .mu-rule-tabcontent h3{
+    font-size: 20px;
+  }
+  #mu-rule .mu-rule-content .mu-rule-tabcontent p{
+    font-size: 14px;
   }
 }
 @media (max-width: 480px) {
