@@ -493,11 +493,21 @@ CONTEST CONTENT SECTION
 #mu-rule .mu-rule-content .mu-rule-tabcontent h2{
   font-size: 30px;
 }
+
+#mu-rule .mu-rule-content .mu-rule-tabcontent .mu-default-btn{
+  margin: 30px 0px;
+  width: 100%;
+  text-align: center;
+}
+
 #mu-rule .mu-rule-content .mu-rule-tabcontent .mu-single-rule{
   margin-left: 20px;
+  margin-top: 20px;
   font-size: 24px;
 }
+
 #mu-rule .mu-rule-content .mu-rule-tabcontent .mu-single-rule li{
+  overflow-wrap: normal;
   line-height: 2;
   margin-left: 20px;
   font-size: 18px;
