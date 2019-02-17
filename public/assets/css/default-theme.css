@@ -9,7 +9,7 @@ a {
 a:hover {
   color: #47e8ff;
 }
-h1, h2, h3, h4, h5, h6,span {
+h1, h2, h3, h4, h5, h6,span,ul,li {
   color: #ff4dff;
 }
 p {
@@ -99,7 +99,7 @@ p {
 #mu-rule .mu-rule-content{
   border: 3px solid #47e8ff;
 }
-#mu-rule .mu-rule-content .mu-rule-tabcontent h2, #mu-rule .mu-rule-content .mu-rule-tabcontent .mu-single-rule, #mu-rule .mu-rule-content .mu-rule-tabcontent .mu-single-rule li{
+#mu-rule .mu-rule-content .mu-rule-tabcontent h2, #mu-rule .mu-rule-content .mu-rule-tabcontent .mu-single-rule ul, #mu-rule .mu-rule-content .mu-rule-tabcontent .mu-single-rule li{
   color: #fcfcfc;
 }
 #mu-progress .mu-progress-tab-bar{
@@ -108,12 +108,25 @@ p {
 #mu-progress .mu-progress-tab-bar button {
   color: #ff4dff;
 }
-#mu-progress .mu-progress-tab-bar button:hover, #mu-rule .mu-progress-tab-bar button.active{
+#mu-progress .mu-progress-tab-bar button:hover, #mu-progress .mu-progress-tab-bar button.active{
   border-color: #47e8ff;
   color: #47e8ff;
 }
 #mu-progress .mu-progress-content{
   border: 3px solid #47e8ff;
+}
+#mu-progress .mu-progress-content .mu-progress-recent{
+  border: 3px solid #47e8ff;
+}
+#mu-progress .mu-progress-content .mu-progress-recent .mu-progress-single-match{
+  border-top: 1px solid #272A33;
+  border-bottom:  1px solid #272A33
+}
+#mu-progress .mu-progress-content .mu-progress-recent .mu-progress-single-match p, #mu-progress .mu-progress-content .mu-progress-recent .mu-progress-single-match a{
+  color: #fcfcfc;
+}
+#mu-progress .mu-progress-content .mu-progress-recent .mu-progress-single-match a:hover{
+  color:#ff4dff;
 }
 #mu-contact-us .mu-contact-us-area h1, #mu-contact-us .mu-contact-us-area h2, #mu-contact-us .mu-contact-us-area p{
   color: #fcfcfc;

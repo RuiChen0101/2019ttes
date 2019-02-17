@@ -55,7 +55,7 @@ ul {
   list-style: none;
 }
 
-ul li{
+ul,li{
   font-family: "Montserrat", Microsoft JhengHei, sans-serif;
 }
 
@@ -562,11 +562,37 @@ CONTEST CONTENT SECTION
 }
 
 #mu-progress .mu-progress-content{
-  margin: 50px 0;
+  margin: 50px 0px;
   padding: 25px 50px;
   background-color: rgba(0, 0, 0, 0.6);
   width: 100%;
 }
+#mu-progress .mu-progress-content iframe{
+  margin: 50px 0px;
+}
+#mu-progress .mu-progress-content .mu-progress-recent{
+  margin: 50px 0px;
+  padding: 25px 0px;
+  background-color: rgba(0, 0, 0, 0.6);
+  width: 100%;
+}
+#mu-progress .mu-progress-content .mu-progress-recent h2{
+  padding: 10px 50px;
+  width: 100%;
+}
+#mu-progress .mu-progress-content .mu-progress-recent .mu-progress-single-match{
+  background-color: #333743;
+  width: 100%;
+  text-align: center;
+}
+#mu-progress .mu-progress-content .mu-progress-recent .mu-progress-single-match .row{
+  margin: 0px 0px;
+}
+#mu-progress .mu-progress-content .mu-progress-recent .mu-progress-single-match p, #mu-progress .mu-progress-content .mu-progress-recent .mu-progress-single-match i{
+  font-size: 18px;
+  margin: 10px 0px;
+}
+
 /*==================
  ERROR PAGE
 ====================*/
@@ -914,7 +940,9 @@ CONTEST CONTENT SECTION
   #mu-abtlast-counter .mu-abtlast-counter-area .mu-abtlast-counter-single {
     margin-bottom: 25px;
   }
-
+  #mu-progress .mu-progress-content{
+    display: none;
+  }
   #mu-footer .mu-footer-top .mu-footer-top-area .mu-footer-widget {
     margin-bottom: 30px;
     text-align: center;
@@ -985,6 +1013,15 @@ CONTEST CONTENT SECTION
   }
   #mu-rule .mu-rule-content .mu-rule-tabcontent .mu-single-rule li{
     font-size: 14px;
+  }
+  #mu-progress .mu-progress-tab-bar button {
+    width: 100vw;
+  }
+  #mu-progress .mu-progress-content{
+    padding: 25px 20px;
+  }
+  #mu-progress .mu-progress-content .mu-progress-tabcontent h2{
+    font-size: 26px;
   }
   #mu-contact-us .mu-contact-us-area h1{
     font-size: 36px;
