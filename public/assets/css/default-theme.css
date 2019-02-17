@@ -73,19 +73,17 @@ p {
 .mu-title h2{
   color: #fcfcfc;
 }
+#mu-abtlast-counter{
+  border-top: 3px solid #47e8ff;
+  border-bottom: 3px solid #47e8ff;
+}
 #mu-abtlast-counter .mu-abtlast-counter-area .mu-abtlast-counter-Title h3{
   color: #fcfcfc;
 }
 #mu-abtlast-counter .mu-abtlast-counter-area .mu-abtlast-counter-single {
   border-right: 3px solid #47e8ff;
 }
-#mu-abtlast-counter .mu-abtlast-counter-area .mu-abtlast-counter-single span {
-  color: #fcfcfc;
-}
-#mu-abtlast-counter .mu-abtlast-counter-area .mu-abtlast-counter-single h4 {
-  color: #fcfcfc;
-}
-#mu-abtlast-counter .mu-abtlast-counter-area .mu-abtlast-counter-single p {
+#mu-abtlast-counter .mu-abtlast-counter-area .mu-abtlast-counter-single span, #mu-abtlast-counter .mu-abtlast-counter-area .mu-abtlast-counter-single h4, #mu-abtlast-counter .mu-abtlast-counter-area .mu-abtlast-counter-single p{
   color: #fcfcfc;
 }
 #mu-rule .mu-rule-tab-bar{
@@ -103,6 +101,12 @@ p {
 }
 #mu-rule .mu-rule-content .mu-rule-tabcontent h2, #mu-rule .mu-rule-content .mu-rule-tabcontent .mu-single-rule, #mu-rule .mu-rule-content .mu-rule-tabcontent .mu-single-rule li{
   color: #fcfcfc;
+}
+#mu-contact-us .mu-contact-us-area h1, #mu-contact-us .mu-contact-us-area h2, #mu-contact-us .mu-contact-us-area p{
+  color: #fcfcfc;
+}
+#mu-contact-us .mu-contact-us-area {
+  border: 3px solid #47e8ff;
 }
 #mu-error .mu-error-area h2 {
   color: #ff4dff;

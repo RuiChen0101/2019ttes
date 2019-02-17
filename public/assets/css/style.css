@@ -415,6 +415,7 @@ CONTEST CONTENT SECTION
   display: inline;
   float: left;
   padding: 70px 0;
+  margin-bottom: 100px;
   width: 100%;
 }
 #mu-abtlast-counter .mu-abtlast-counter-area {
@@ -584,13 +585,43 @@ CONTEST CONTENT SECTION
 }
 
 /*==================
+ CONTACT US PAGE
+====================*/
+#mu-contact-us {
+  background-image: url("../img/main_theme_black.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding: 100px;
+  display: inline;
+  float: left;
+  text-align: center;
+  width: 100%;
+  word-break: break-all;
+}
+
+#mu-contact-us .mu-contact-us-area{
+  margin: 50px 0;
+  padding: 25px 50px;
+  background-color: rgba(0, 0, 0, 0.6);
+  width: 100%;
+}
+
+#mu-contact-us .mu-contact-us-area h1{
+  font-size: 72px;
+}
+#mu-contact-us .mu-contact-us-area p{
+  font-size: 24px;
+}
+
+
+/*==================
  FOOTER
 ====================*/
 #mu-footer {
   display: inline;
   float: right;
   width: 100%;
-  margin-top: 100px;
   text-align: center;
 }
 #mu-footer .mu-footer-top {
@@ -688,6 +719,7 @@ CONTEST CONTENT SECTION
   float: left;
   height: 5px;
   width: 100%;
+  margin: 20px 0px;
 }
 
 /*==================
@@ -922,6 +954,15 @@ CONTEST CONTENT SECTION
   #mu-rule .mu-rule-content .mu-rule-tabcontent .mu-single-rule li{
     font-size: 14px;
   }
+  #mu-contact-us .mu-contact-us-area h1{
+    font-size: 36px;
+  }
+  #mu-contact-us .mu-contact-us-area h2{
+    font-size: 20px;
+  }
+  #mu-contact-us .mu-contact-us-area p{
+    font-size: 14px;
+  }
 }
 @media (max-width: 570px) {
   #mu-abtlast-counter .mu-abtlast-counter-area .mu-abtlast-counter-record {
@@ -934,6 +975,13 @@ CONTEST CONTENT SECTION
   }
   #mu-abtlast-counter .mu-abtlast-counter-area .no-border {
     border: none;
+  }
+  #mu-contact-us{
+    padding: 40px;
+  }
+  #mu-contact-us .mu-contact-us-area{
+    margin: 0px;
+    padding: 25px 15px;
   }
 }
 @media (max-width: 480px) {
