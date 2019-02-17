@@ -1,0 +1,190 @@
+<html>
+   <head>
+      <meta charset = "utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <title>2019北科e-Sports超級聯賽</title>
+
+      <link rel="shortcut icon" href="assets/img/favicon.png">
+
+      <!-- Font awesome -->
+      <link href="assets/css/font-awesome.css" rel="stylesheet">
+      <!-- Bootstrap -->
+      <link href="assets/css/bootstrap.css" rel="stylesheet">
+      <!-- Slick slider -->
+      <link rel="stylesheet" type="text/css" href="assets/css/slick.css">
+      <!-- Fancybox slider -->
+      <link rel="stylesheet" href="assets/css/jquery.fancybox.css" type="text/css" media="screen" />
+      <!-- Theme color -->
+      <link id="switcher" href="assets/css/default-theme.css" rel="stylesheet">
+
+      <!-- Main style sheet -->
+      <link href="assets/css/style.css" rel="stylesheet">
+
+      <!-- Google Fonts -->
+      <link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+      <link href='https://fonts.googleapis.com/css?family=Roboto:400,400italic,300,300italic,500,700' rel='stylesheet' type='text/css'>
+   </head>
+   <body>
+
+     <!--START SCROLL TOP BUTTON -->
+     <a class="scrollToTop" href="#">
+       <i class="fa fa-angle-up"></i>
+     </a>
+     <!-- END SCROLL TOP BUTTON -->
+     <!-- Start menu -->
+     <section id="mu-menu">
+       <nav class="navbar navbar-default" role="navigation">
+         <div class="container">
+           <div class="navbar-header">
+             <!-- FOR MOBILE VIEW COLLAPSED BUTTON -->
+             <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+               <span class="sr-only">Toggle navigation</span>
+               <span class="icon-bar"></span>
+               <span class="icon-bar"></span>
+               <span class="icon-bar"></span>
+             </button>
+             <!-- LOGO -->
+             <a class="navbar-brand" href="index.html">
+               <img src="assets/img/logo.png" alt="logo" width="50px" height="50px">
+               <span>2019北科e-Sports超級聯賽</span>
+             </a>
+
+           </div>
+           <div id="navbar" class="navbar-collapse collapse">
+             <ul id="top-menu" class="nav navbar-nav navbar-right main-nav">
+               <li><a href="index.html">首頁</a></li>
+               <!-- <li class="dropdown">
+                 <a href="#" class="dropdown-toggle" data-toggle="dropdown">Course <span class="fa fa-angle-down"></span></a>
+                 <ul class="dropdown-menu" role="menu">
+                   <li><a href="course.html">Course Archive</a></li>
+                   <li><a href="course-detail.html">Course Detail</a></li>
+                 </ul>
+               </li> -->
+               <li><a href="rule.html">賽事規章</a></li>
+               <li class="active"><a href="progress.html">賽程表</a></li>
+               <li><a href="404.html">周邊商品</a></li>
+               <li><a href="contact_us.html">聯絡我們</a></li>
+             </ul>
+           </div><!--/.nav-collapse -->
+         </div>
+       </nav>
+     </section>
+     <!-- End menu -->
+
+     <section id="mu-progress">
+       <div class="mu-progress-tab-bar">
+         <div class="container">
+           <div class="row">
+             <div class="col">
+               <button class="mu-rule-tablinks tablinks" onclick="openTab(event, 'kartRider')" id="defaultOpen">跑跑卡丁車</button>
+             </div>
+             <div class="col">
+               <button class="mu-progress-tablinks tablinks" onclick="openTab(event, 'hearthStone')">爐石戰記</button>
+             </div>
+             <div class="col">
+               <button class="mu-progress-tablinks tablinks" onclick="openTab(event, 'cytus2')">CYTUS II</button>
+             </div>
+             <div class="col">
+               <button class="mu-progress-tablinks tablinks" onclick="openTab(event, 'rainbowSix')">虹彩六號</button>
+             </div>
+             <div class="col">
+               <button class="mu-progress-tablinks tablinks" onclick="openTab(event, 'starCraft2')">星海爭霸II</button>
+             </div>
+           </div>
+         </div>
+       </div>
+       <div class="container">
+         <div class="mu-progress-content">
+           <div id="kartRider" class="mu-rule-tabcontent tabcontent">
+             <h2>跑跑卡丁車 賽程表</h2>
+           </div>
+           <div id="hearthStone" class="mu-rule-tabcontent tabcontent">
+             <h2>爐石戰記 賽程表</h2>
+           </div>
+           <div id="cytus2" class="mu-rule-tabcontent tabcontent">
+             <h2>CYTUS II 賽程表</h2>
+           </div>
+           <div id="rainbowSix" class="mu-rule-tabcontent tabcontent">
+             <h2>虹彩六號：圍攻行動 賽程表</h2>
+           </div>
+           <div id="starCraft2" class="mu-rule-tabcontent tabcontent">
+             <h2>星海爭霸II 賽程表</h2>
+           </div>
+         </div>
+       </div>
+     </section>
+
+     <!-- Start footer -->
+     <footer id="mu-footer">
+       <!-- start footer top -->
+       <div class="mu-footer-top">
+         <div class="container">
+           <div class="mu-footer-top-area">
+             <div class="row">
+               <div class="col">
+                 <div class="mu-footer-widget">
+                   <h3>主辦單位</h3>
+                 </div>
+               </div>
+             </div>
+             <div class="row">
+               <div class="col">
+                 <div class="mu-footer-widget">
+                   <h4>國立臺北科技大學電子競技社</h4>
+                   <ul>
+                     <li><img src="assets/img/ttes_logo.png" alt="logo" height="150px" width="auto"></img>
+                     <li><a href="https://www.facebook.com/TaipeiTechESports/" target="_blank" rel="noopener noreferrer">Facebook</a></li>
+                     <li><a href="https://www.twitch.tv/taipeitech_esports_club" target="_blank" rel="noopener noreferrer">Twitch</a></li>
+                     <li><a href="https://www.youtube.com/channel/UCj_4GktFFQmdiyyMrjXTjbg" target="_blank" rel="noopener noreferrer">Youtube</a></li>
+                   </ul>
+                 </div>
+               </div>
+               <div class="col">
+                 <div class="mu-footer-widget">
+                   <h4>國立臺北科技大學學生會</h4>
+                   <ul>
+                     <li><img src="assets/img/ttsu_logo.jpg" alt="logo" height="150px" width="auto"></img>
+                     <li><a href="https://www.facebook.com/TaipeiTechSU/" target="_blank" rel="noopener noreferrer">Facebook</a></li>
+                     <li><a href="https://www.youtube.com/user/ntutsu" target="_blank" rel="noopener noreferrer">Youtube</a></li>
+                     <li><a href="https://www.instagram.com/ntut_su/" target="_blank" rel="noopener noreferrer">Instagram</a></li>
+                   </ul>
+                 </div>
+               </div>
+             </div>
+           </div>
+         </div>
+       </div>
+       <!-- end footer top -->
+       <!-- start footer bottom -->
+       <div class="mu-footer-bottom">
+         <div class="container">
+           <div class="mu-footer-bottom-area">
+             <p>&copy; 2019 國立臺北科技大學電子競技社 TaipeiTech e-Sports Club. All rights reserved</p>
+           </div>
+         </div>
+       </div>
+       <!-- end footer bottom -->
+     </footer>
+     <!-- End footer -->
+
+    <!-- jQuery library -->
+    <script src="assets/js/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="assets/js/bootstrap.js"></script>
+    <!-- Slick slider -->
+    <script type="text/javascript" src="assets/js/slick.js"></script>
+    <!-- Counter -->
+    <script type="text/javascript" src="assets/js/waypoints.js"></script>
+    <script type="text/javascript" src="assets/js/jquery.counterup.js"></script>
+    <!-- Mixit slider -->
+    <script type="text/javascript" src="assets/js/jquery.mixitup.js"></script>
+    <!-- Add fancyBox -->
+    <script type="text/javascript" src="assets/js/jquery.fancybox.pack.js"></script>
+
+
+    <!-- Custom js -->
+    <script src="assets/js/custom.js"></script>
+    <script src="assets/js/tabview.js"></script>
+   </body>
+</html>
