@@ -1,7 +1,7 @@
+importArtical("common","common_rule_artical");
 function importArtical(dist,from){
-  var path='link[href="'+from+'"]';
-  console.log(path);
-  var link = document.querySelector(path);
-  var content = link.import;
-  document.getElementById(dist).appendChild(content.cloneNode(true));
+  var temp = document.getElementById(from);
+  var clon = temp.content.cloneNode(true);
+  document.getElementById(dist).appendChild(clon);
+  console.log(from+" add");
 }
