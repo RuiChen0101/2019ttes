@@ -10,20 +10,13 @@
 /* Table of Content
 ==================================================
 #BASIC TYPOGRAPHY
-#HEADER SECTION
 #NAVBAR SECTION
 #SLIDER SECTION
-#SERVICE SECTION
 #ABOUT US SECTION
+#CONTEST CONTENT SECTION
 #COUNTER SECTION
-#FEATURES SECTION
-#LATEST COURSES SECTION
-#TEACHER SECTION
-#TESTIMONIAL SECTION
-#FROM BLOG SECTION
-# COURSES PAGE
-#BLOG PAGE
-#GALLERY PAGE
+#RULE PAGE
+#PROGRESS PAGE
 #CONTACT PAGE
 #ERROR  PAGE
 #FOOTER SECTION
@@ -487,6 +480,8 @@ CONTEST CONTENT SECTION
   padding: 14px 14px;
   background-color: inherit;
   outline: none;
+  width: 100%;
+  text-align: center;
   cursor: pointer;
   font-size: 20px;
   transition: 0.3s;
