@@ -498,6 +498,7 @@ CONTEST CONTENT SECTION
   background-color: rgba(0, 0, 0, 0.6);
   width: 100%;
 }
+
 @keyframes fadeEffect {
   from {opacity: 0;}
   to {opacity: 1;}
@@ -567,9 +568,21 @@ CONTEST CONTENT SECTION
   background-color: rgba(0, 0, 0, 0.6);
   width: 100%;
 }
+
+@keyframes fadeEffect {
+  from {opacity: 0;}
+  to {opacity: 1;}
+}
+
+#mu-progress .mu-progress-content .mu-progress-tabcontent {
+  display: none;
+  animation: fadeEffect 1s;
+}
+
 #mu-progress .mu-progress-content iframe{
   margin: 50px 0px;
 }
+
 #mu-progress .mu-progress-content .mu-progress-recent{
   margin: 50px 0px;
   padding: 25px 0px;
@@ -646,10 +659,7 @@ CONTEST CONTENT SECTION
  CONTACT US PAGE
 ====================*/
 #mu-contact-us {
-  background-image: url("../img/main_theme_black.jpg");
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
+  background-color: transparent;
   padding: 100px;
   display: inline;
   float: left;
