@@ -296,6 +296,23 @@ img {
   font-size: 25px;
 }
 /*==================
+ LIVE SECTION
+====================*/
+#mu-live{
+  display: inline;
+  float: left;
+  width: 100%;
+  padding: 50px 0px;
+}
+
+#mu-live .mu-live-area{
+  display: inline;
+  float: left;
+  width: 100%;
+}
+
+
+/*==================
  ABOUT SECTION
 ====================*/
 #mu-about-us {
@@ -801,6 +818,11 @@ CONTEST CONTENT SECTION
   #mu-slider .mu-slider-single .mu-slider-content {
     top: 13%;
   }
+
+  #mu-live .mu-live-area{
+    max-height: 600px;
+  }
+
 }
 @media (max-width: 991px) {
   #mu-menu .navbar-default .navbar-nav li > a {
@@ -829,6 +851,10 @@ CONTEST CONTENT SECTION
   #mu-slider .mu-slider-single .mu-slider-content p {
     font-size: 16px;
     line-height: 1.5;
+  }
+
+  #mu-live .mu-live-area{
+    max-height: 400px;
   }
 
   #mu-about-us {
@@ -1090,6 +1116,9 @@ CONTEST CONTENT SECTION
   #mu-slider .slick-prev, #mu-slider .slick-next {
     height: 40px;
     width: 40px;
+  }
+  #mu-live .mu-live-area{
+    max-height: 200px;
   }
 }
 @media (max-width: 360px) {
