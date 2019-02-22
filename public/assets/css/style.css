@@ -733,10 +733,6 @@ CONTEST CONTENT SECTION
   font-size: 28px;
   text-transform: uppercase;
 }
-#mu-footer .mu-footer-top .mu-footer-top-area .mu-footer-widget ul li img{
-  height: 150px;
-  width: auto;
-}
 #mu-footer .mu-footer-top .mu-footer-top-area .mu-footer-widget ul li a {
   color: #f9f9f9;
   display: inline-block;
@@ -987,7 +983,7 @@ CONTEST CONTENT SECTION
     font-size: 18px;
   }
 
-  #mu-footer .mu-footer-top .mu-footer-top-area .mu-footer-widget ul li img{
+  #mu-footer .mu-footer-top .mu-footer-top-area .mu-footer-widget img{
     height: 60px;
     width: auto;
   }
