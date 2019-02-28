@@ -1,6 +1,0 @@
-Disallow: /404.html
-Disallow: /contact_us.html
-Disallow: /rule.html
-Disallow: /progress.html
-
-Sitemap: https://ntut-esports-superleague.firebaseapp.com/sitemap.xml
