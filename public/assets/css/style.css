@@ -641,32 +641,6 @@ CONTEST CONTENT SECTION
 }
 
 /*==================
- COMMING SOON PAGE
-====================*/
-#mu-comming-soon {
-  display: inline;
-  float: left;
-  padding: 100px 0;
-  width: 100%;
-}
-#mu-comming-soon .mu-text-area {
-  display: inline;
-  float: left;
-  width: 100%;
-  height: 450px;
-  margin-bottom: 100px;
-  text-align: center;
-}
-#mu-comming-soon .mu-text-area span {
-  font-size: 28px;
-  line-height: 1.5;
-}
-#mu-comming-soon .mu-text-area h2 {
-  font-size: 100px;
-  line-height: 3;
-}
-
-/*==================
  CONTACT US PAGE
 ====================*/
 #mu-contact-us {
@@ -692,7 +666,6 @@ CONTEST CONTENT SECTION
 #mu-contact-us .mu-contact-us-area p{
   font-size: 24px;
 }
-
 
 /*==================
  FOOTER
@@ -1004,18 +977,6 @@ CONTEST CONTENT SECTION
   #mu-error .mu-error-area h2 {
     font-size: 150px;
     line-height: 1.5;
-  }
-  #mu-comming-soon .mu-text-area {
-    height: 350px;
-    text-align: center;
-  }
-  #mu-comming-soon .mu-text-area span {
-    font-size: 20px;
-    line-height: 1;
-  }
-  #mu-comming-soon .mu-text-area h2 {
-    font-size: 60px;
-    line-height: 2;
   }
 }
 @media (max-width: 640px) {
