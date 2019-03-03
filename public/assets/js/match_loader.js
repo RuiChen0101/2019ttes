@@ -18,9 +18,6 @@ function matchRecord(game){
     case 'cytus2-32':
       records=[
         "組別 玩家名稱 晉級 第一首分數 第二首分數 曲目總分",
-        "A NEKO#ΦωΦ * 2000000 2000000 4000000",
-        "B NEKO#ΦωΦ - 2000000 2000000 4000000",
-        "C PAFF - 2000000 2000000 4000000"
       ];
       break;
 
@@ -88,8 +85,8 @@ function loadMatch(game){
     target[0].appendChild(template);
   }
 }
-loadMatch('kartRider');
-loadMatch('hearthStone');
-loadMatch('rainbowSix');
-loadMatch('starCraft2');
+// loadMatch('kartRider');
+// loadMatch('hearthStone');
+// loadMatch('rainbowSix');
+// loadMatch('starCraft2');
 loadMatchCytus("cytus2","32","32強")

@@ -966,8 +966,16 @@ CONTEST CONTENT SECTION
   #mu-abtlast-counter .mu-abtlast-counter-area .mu-abtlast-counter-single {
     margin-bottom: 25px;
   }
-  #mu-progress .mu-progress-recent{
+  #mu-progress .mu-progress-recent .no-small{
     display: none;
+  }
+  #mu-progress .mu-progress-content .mu-progress-recent h2{
+    font-size: 20px;
+    padding: 10px 25px;
+  }
+  #mu-progress .mu-progress-content .mu-progress-recent .mu-progress-single-match p, #mu-progress .mu-progress-content .mu-progress-recent .mu-progress-single-match i{
+    font-size: 12px;
+    margin: 5px 0px;
   }
   #mu-footer .mu-footer-top .mu-footer-top-area .mu-footer-widget {
     margin-bottom: 30px;
