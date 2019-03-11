@@ -330,6 +330,16 @@ img {
   float: left;
   width: 100%;
 }
+#mu-about-us .mu-about-us-area .mu-about-us-left .mu-about-us-button .row{
+  margin: 0px;
+}
+#mu-about-us .mu-about-us-area .mu-about-us-left .mu-about-us-button .col{
+  padding: 0px 10px;
+}
+#mu-about-us .mu-about-us-area .mu-about-us-left .mu-about-us-button .mu-default-btn{
+  text-align: center;
+  width: 100%;
+}
 #mu-about-us .mu-about-us-area .mu-about-us-left h2 {
   font-size: 40px;
   margin-bottom: 20px;
@@ -829,6 +839,10 @@ CONTEST CONTENT SECTION
     margin: 60px 0px;
   }
 
+  #mu-about-us .mu-about-us-area .mu-about-us-left .mu-about-us-button .mu-default-btn{
+    font-size: 12px;
+  }
+
   #mu-about-us .mu-about-us-area .mu-about-us-right {
     margin-top: 30px;
     padding-left: 15px;
@@ -907,6 +921,10 @@ CONTEST CONTENT SECTION
   #mu-about-us .mu-about-us-area .mu-about-us-right, #mu-about-us .mu-about-us-area .mu-about-us-left {
     padding: 0px 10px;
     width: 100vw;
+  }
+
+  #mu-about-us .mu-about-us-area .mu-about-us-left .mu-about-us-button .mu-default-btn{
+    font-size: 12px;
   }
 
   #mu-about-us .mu-about-us-area .mu-about-us-right iframe {
@@ -1090,6 +1108,9 @@ CONTEST CONTENT SECTION
   #mu-about-us .mu-about-us-area .mu-about-us-left h2 {
     font-size: 30px;
     margin-bottom: 10px;
+  }
+  #mu-about-us .mu-about-us-area .mu-about-us-left .mu-about-us-button .mu-default-btn{
+    font-size: 10px;
   }
 
   #mu-footer .mu-footer-top {
