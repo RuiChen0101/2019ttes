@@ -678,6 +678,21 @@ CONTEST CONTENT SECTION
 }
 
 /*==================
+PRICE PAGE
+====================*/
+#mu-price{
+  display: inline;
+  float: left;
+  width: 100%;
+}
+
+#mu-price .mu-price-area{
+  margin: 50px 0;
+  padding: 25px 50px;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+/*==================
  FOOTER
 ====================*/
 #mu-footer {

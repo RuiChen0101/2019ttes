@@ -137,7 +137,9 @@ p {
 #mu-error .mu-error-area h2 {
   color: #ff4dff;
 }
-
+#mu-price .mu-price-area{
+  border: 3px solid #47e8ff;
+}
 #mu-footer .mu-footer-top .mu-footer-top-area .mu-footer-widget ul li a:hover, #mu-footer .mu-footer-top .mu-footer-top-area .mu-footer-widget ul li a:focus {
   color: #ff4dff;
 }
@@ -145,8 +147,3 @@ p {
 #mu-divider{
   background-color: #47e8ff;
 }
-
-/*=======================================
-Template Design By MarkUps.
-Author URI : http://www.markups.io/
-========================================*/
