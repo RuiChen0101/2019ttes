@@ -140,6 +140,12 @@ p {
 #mu-price .mu-price-area{
   border: 3px solid #47e8ff;
 }
+#mu-price .mu-price-area .mu-price-table, #mu-price .mu-price-area .mu-price-table tr, #mu-price .mu-price-area .mu-price-table td{
+  border: 2px solid #47e8ff;
+}
+#mu-price .mu-price-area .mu-price-table p{
+  color: #fcfcfc;
+}
 #mu-footer .mu-footer-top .mu-footer-top-area .mu-footer-widget ul li a:hover, #mu-footer .mu-footer-top .mu-footer-top-area .mu-footer-widget ul li a:focus {
   color: #ff4dff;
 }

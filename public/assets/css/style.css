@@ -692,6 +692,22 @@ PRICE PAGE
   background-color: rgba(0, 0, 0, 0.6);
 }
 
+#mu-price .mu-price-area a{
+  margin: 20px 0px;
+  width: 100%;
+  text-align: center;
+}
+
+#mu-price .mu-price-area .mu-price-table{
+  width: 100%;
+  margin: 50px 0px 0px 0px;
+}
+
+#mu-price .mu-price-area .mu-price-table p{
+  margin: 5px 10px;
+  font-size: 20px;
+}
+
 /*==================
  FOOTER
 ====================*/
@@ -1054,6 +1070,20 @@ PRICE PAGE
   }
   #mu-contact-us .mu-contact-us-area p{
     font-size: 14px;
+  }
+  #mu-price .mu-price-area{
+    padding: 25px 15px;
+  }
+  #mu-price .mu-price-area h2{
+    margin: 0px 20px;
+    font-size: 20px;
+  }
+  #mu-price .mu-price-area .mu-price-table{
+    width: 100%;
+    margin: 20px 0px 0px 0px;
+  }
+  #mu-price .mu-price-area .mu-price-table p{
+    font-size: 12px;
   }
 }
 @media (max-width: 570px) {
