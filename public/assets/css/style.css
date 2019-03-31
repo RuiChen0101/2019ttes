@@ -692,6 +692,10 @@ PRICE PAGE
   background-color: rgba(0, 0, 0, 0.6);
 }
 
+#mu-price .mu-price-area img{
+  width: 100%;
+}
+
 #mu-price .mu-price-area a{
   margin: 20px 0px;
   width: 100%;
