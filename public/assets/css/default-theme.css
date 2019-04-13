@@ -20,6 +20,10 @@ p {
   border: 2px solid #ff4dff;
 }
 
+em, strong{
+  color: #ff4dff;
+}
+
 .mu-default-btn:hover, .mu-default-btn:focus {
   background-color: #ff4dff;
   border-color: #ff4dff;
