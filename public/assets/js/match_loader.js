@@ -15,7 +15,7 @@ function matchRecord(game){
       ];
       break;
 
-    case 'cytus2-32':
+    case 'cytus2-8':
       records=[
         "組別 玩家名稱 晉級 第一首分數 第二首分數 曲目總分",
       ];
@@ -89,4 +89,4 @@ function loadMatch(game){
 // loadMatch('hearthStone');
 // loadMatch('rainbowSix');
 // loadMatch('starCraft2');
-loadMatchCytus("cytus2","32","32強")
+loadMatchCytus("cytus2","8","8強")
