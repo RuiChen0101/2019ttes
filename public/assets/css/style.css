@@ -1089,6 +1089,9 @@ PRICE PAGE
   #mu-price .mu-price-area .mu-price-table p{
     font-size: 12px;
   }
+  #mu-footer .mu-footer-top .mu-footer-top-area .mu-logo .mu-footer-widget  {
+    width: 100vw;
+  }
 }
 @media (max-width: 570px) {
   #mu-abtlast-counter .mu-abtlast-counter-area .mu-abtlast-counter-record {
