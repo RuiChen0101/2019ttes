@@ -3,8 +3,8 @@ function matchRecord(game){
   switch (game) {
     case 'kartRider':
       records=[
-        "32-1 2019/02/17 這樣剛好七個字：這樣好像七個字 7：1 *",
-        "32-3 2019/02/18 這樣剛好七個字：這樣好像七個字 5：7 https://youtu.be/Ln-n6JiRDZc"
+        "P-1 2019/04/23 你各位啊：隨便啦 7：0 *",
+        "P-4 2019/04/23 來想個好隊名：台北醫學大學店 7：1 https://youtu.be/jnN2Q-OK38Q"
       ];
       break;
 
@@ -85,7 +85,7 @@ function loadMatch(game){
     target[0].appendChild(template);
   }
 }
-// loadMatch('kartRider');
+loadMatch('kartRider');
 // loadMatch('hearthStone');
 // loadMatch('rainbowSix');
 loadMatch('starCraft2');
