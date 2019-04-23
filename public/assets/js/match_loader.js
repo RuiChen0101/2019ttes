@@ -30,8 +30,8 @@ function matchRecord(game){
 
     case 'starCraft2':
       records=[
-        "32-1 2019/02/17 這樣剛好七個字：這樣好像七個字 7：1 *",
-        "32-3 2019/02/18 這樣剛好七個字：這樣好像七個字 5：7 https://youtu.be/Ln-n6JiRDZc"
+        "P-1 2019/04/22 PenutChen#4138：youch6165#3863 2：0 *",
+        "P-2 2019/04/22 帥哥#3797：JOHNYOU#4894 2：0 *"
       ];
       break;
   }
@@ -88,5 +88,5 @@ function loadMatch(game){
 // loadMatch('kartRider');
 // loadMatch('hearthStone');
 // loadMatch('rainbowSix');
-// loadMatch('starCraft2');
+loadMatch('starCraft2');
 loadMatchCytus("cytus2","8","8強")
