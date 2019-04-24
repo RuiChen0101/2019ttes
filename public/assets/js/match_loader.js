@@ -10,8 +10,7 @@ function matchRecord(game){
 
     case 'hearthStone':
       records=[
-        "32-1 2019/02/17 這樣剛好七個字：這樣好像七個字 7：1 *",
-        "32-3 2019/02/18 這樣剛好七個字：這樣好像七個字 5：7 https://youtu.be/Ln-n6JiRDZc"
+        "P-5 2019/02/24 youch6165#3863：ETWang#11993 3：2 *",
       ];
       break;
 
@@ -86,7 +85,7 @@ function loadMatch(game){
   }
 }
 loadMatch('kartRider');
-// loadMatch('hearthStone');
+loadMatch('hearthStone');
 // loadMatch('rainbowSix');
 loadMatch('starCraft2');
 loadMatchCytus("cytus2","8","8強")
