@@ -12,7 +12,7 @@ function matchRecord(game){
 
     case 'hearthStone':
       records=[
-        "P-4 2019/02/25 李小珀#3584：stopfish #4534 2：3 *",
+        "P-4 2019/02/25 李小珀#3584：stopfish#4534 2：3 *",
         "P-5 2019/02/24 youch6165#3863：ETWang#11993 3：2 *"
       ];
       break;
