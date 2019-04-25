@@ -4,13 +4,16 @@ function matchRecord(game){
     case 'kartRider':
       records=[
         "P-1 2019/04/23 你各位啊：隨便啦 7：0 *",
-        "P-4 2019/04/23 來想個好隊名：台北醫學大學店 7：1 https://youtu.be/jnN2Q-OK38Q"
+        "P-2 2019/04/23 南部小孩：ㄅㄆㄇㄈㄉㄊㄋ 0：7 *",
+        "P-4 2019/04/23 來想個好隊名：台北醫學大學店 7：1 https://youtu.be/jnN2Q-OK38Q",
+        "P-6 2019/04/25 譚老大通訊系統：樸樓好醜不要蓋 0：7 https://youtu.be/yxpAwp9X270"
       ];
       break;
 
     case 'hearthStone':
       records=[
-        "P-5 2019/02/24 youch6165#3863：ETWang#11993 3：2 *",
+        "P-4 2019/02/25 李小珀#3584：stopfish #4534 2：3 *",
+        "P-5 2019/02/24 youch6165#3863：ETWang#11993 3：2 *"
       ];
       break;
 
@@ -29,7 +32,7 @@ function matchRecord(game){
 
     case 'starCraft2':
       records=[
-        "P-1 2019/04/22 PenutChen#4138：youch6165#3863 2：0 *",
+        "P-1 2019/04/22 PenutChen#4138：youch6165#3863 2：0 https://youtu.be/1KYcJwhc1Tk",
         "P-2 2019/04/22 帥哥#3797：JOHNYOU#4894 2：0 *"
       ];
       break;
