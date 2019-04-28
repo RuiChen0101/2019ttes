@@ -12,8 +12,13 @@ function matchRecord(game){
 
     case 'hearthStone':
       records=[
-        "P-4 2019/02/25 李小珀#3584：stopfish#4534 2：3 *",
-        "P-5 2019/02/24 youch6165#3863：ETWang#11993 3：2 *"
+        "P-1 2019/04/27 Santafrog#3380：半透明立刻顯現出#3429 1：3 *",
+        "P-2 2019/04/26 奪命小獅子#3434：Darkswindler#3857 2：3 https://youtu.be/ic0KtBVM8hA",
+        "P-3 2019/04/26 MightyJ#3110：仆街少年#4942 0：3 *",
+        "P-4 2019/04/25 李小珀#3584：stopfish#4534 2：3 *",
+        "P-5 2019/04/24 youch6165#3863：ETWang#11993 3：2 *",
+        "P-6 2019/04/27 AdairL#3781：風中動鳴#3740 3：2 *",
+        "P-7 2019/04/27 BingHong#41356：Cup#3337 0：3 *"
       ];
       break;
 
