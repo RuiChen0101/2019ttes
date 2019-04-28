@@ -4,8 +4,10 @@ function matchRecord(game){
     case 'kartRider':
       records=[
         "P-1 2019/04/23 你各位啊：隨便啦 7：0 *",
-        "P-2 2019/04/23 南部小孩：ㄅㄆㄇㄈㄉㄊㄋ 0：7 *",
+        "P-2 2019/04/25 南部小孩：ㄅㄆㄇㄈㄉㄊㄋ 0：7 *",
+        "P-2 2019/04/28 我的阿提密斯呢：城高不換 7：1 https://youtu.be/KpNCNh5JRHk",
         "P-4 2019/04/23 來想個好隊名：台北醫學大學店 7：1 https://youtu.be/jnN2Q-OK38Q",
+        "P-5 2019/04/28 天才衝衝衝：韓總一定行 0：7 https://youtu.be/BYfH1gpmzbM",
         "P-6 2019/04/25 譚老大通訊系統：樸樓好醜不要蓋 0：7 https://youtu.be/yxpAwp9X270"
       ];
       break;
