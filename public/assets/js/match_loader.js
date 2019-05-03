@@ -3,6 +3,8 @@ function matchRecord(game){
   switch (game) {
     case 'kartRider':
       records=[
+        "8-2 2019/05/02 ㄅㄆㄇㄈㄉㄊㄋ：我的阿提密斯呢 7：4 *",
+        "8-3 2019/05/02 車隊BAN不見：來想個好隊名 7：0 https://youtu.be/l9_Fp06n3SE",
         "P-1 2019/04/23 你各位啊：隨便啦 7：0 *",
         "P-2 2019/04/25 南部小孩：ㄅㄆㄇㄈㄉㄊㄋ 0：7 *",
         "P-2 2019/04/28 我的阿提密斯呢：城高不換 7：1 https://youtu.be/KpNCNh5JRHk",
@@ -14,6 +16,8 @@ function matchRecord(game){
 
     case 'hearthStone':
       records=[
+        "8-1 2019/05/01 Miracle#41310：半透明立刻顯現出#3429 1：3 https://youtu.be/wgDvuqsUnXc",
+        "8-3 2019/05/01 stopfish#4534：youch6165#3863 3：0 *",
         "P-1 2019/04/27 Santafrog#3380：半透明立刻顯現出#3429 1：3 *",
         "P-2 2019/04/26 奪命小獅子#3434：Darkswindler#3857 2：3 https://youtu.be/ic0KtBVM8hA",
         "P-3 2019/04/26 MightyJ#3110：仆街少年#4942 0：3 *",
