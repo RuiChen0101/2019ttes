@@ -17,6 +17,8 @@
 #RULE PAGE
 #PROGRESS PAGE
 #CONTACT PAGE
+#PRICE PAGE
+#FINAL PAGE
 #ERROR  PAGE
 #FOOTER SECTION
 #RESPONSIVE DESIGN
@@ -805,6 +807,85 @@ PRICE PAGE
 }
 
 /*==================
+FINAL PAGE
+====================*/
+#mu-final {
+  display: inline;
+  float: right;
+  width: 100%;
+  text-align: center;
+}
+
+#mu-final .mu-final-area-info{
+  margin: 50px 0px;
+  padding: 25px 50px;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+#mu-final .mu-final-area-info .row{
+  margin: 0px;
+}
+
+#mu-final .mu-final-area-info .mu-final-timetable-content{
+  margin: 50px 0;
+  padding: 0px 140px;
+  width: 100%;
+  text-align: left;
+}
+
+#mu-final .mu-final-area-info .mu-final-arena .mu-final-arena-img img{
+  margin: 50px auto;
+  width: 100%;
+}
+
+#mu-final .mu-final-area-info .mu-final-arena .mu-final-arena-vendor{
+  margin: 80px auto;
+  width: 100%;
+}
+
+#mu-final .mu-final-area-info .mu-final-arena .mu-final-arena-vendor p{
+  font-size: 20px;
+  margin: 5px 10px;
+}
+
+#mu-event {
+  display: inline;
+  float: right;
+  width: 100%;
+  text-align: center;
+}
+
+#mu-event .mu-event-area{
+  margin: 50px 0px;
+  padding: 25px 50px;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+#mu-event .mu-event-area .mu-event-single{
+  margin: 50px 0px;
+  width: 100%;
+}
+#mu-event .mu-event-area .mu-event-single .row{
+  margin: 0px;
+}
+#mu-event .mu-event-area .mu-event-single .mu-event-single-left{
+  margin: 50px 0px;
+  width: 100%;
+}
+#mu-event .mu-event-area .mu-event-single .mu-event-single-left img{
+  width: 100%;
+}
+
+#mu-event .mu-event-area .mu-event-single .mu-event-single-right{
+  margin: 50px 0px;
+  width: 100%;
+}
+
+
+
+/*==================
     Divider Tool
 ====================*/
 #mu-divider{
@@ -835,7 +916,9 @@ PRICE PAGE
   #mu-live .mu-live-area{
     max-height: 600px;
   }
-
+  #mu-final .mu-final-area-info .mu-final-timetable-content{
+    padding: 0px 100px;
+  }
 }
 @media (max-width: 991px) {
   #mu-menu .navbar-default .navbar-nav li > a {
@@ -912,6 +995,10 @@ PRICE PAGE
 
   #mu-rule .mu-rule-tab-bar button {
     font-size: 16px;
+  }
+
+  #mu-final .mu-final-area-info .mu-final-timetable-content{
+    padding: 0px 50px;
   }
 }
 @media (max-width: 767px) {
@@ -1088,6 +1175,38 @@ PRICE PAGE
   }
   #mu-price .mu-price-area .mu-price-table p{
     font-size: 12px;
+  }
+  #mu-final .mu-final-area-info{
+    padding: 25px 10px;
+  }
+  #mu-final .mu-final-area-info .mu-final-timetable-content{
+    padding: 0px 20px;
+  }
+  #mu-final .mu-final-area-info .mu-final-timetable-content h2{
+    font-size: 20px;
+  }
+  #mu-final .mu-final-area-info .mu-final-timetable-content h3{
+    font-size: 15px;
+  }
+  #mu-final .mu-final-area-info .mu-final-arena .mu-final-arena-vendor p{
+    font-size: 12px;
+  }
+  #mu-event .mu-event-area{
+    padding: 25px 0px;
+  }
+  #mu-event .mu-event-area .mu-event-single .mu-event-single-left{
+    margin: 20px 0px 20px -18px;
+    width: 100vw;
+  }
+  #mu-event .mu-event-area .mu-event-single .mu-event-single-left img{
+    width: 70%;
+  }
+  #mu-event .mu-event-area .mu-event-single .mu-event-single-right{
+    margin: 20px 10px;
+    width: 100%;
+  }
+  #mu-event .mu-event-area .mu-event-single .mu-event-single-right h3{
+    font-size: 15px;
   }
   #mu-footer .mu-footer-top .mu-footer-top-area .mu-logo .mu-footer-widget  {
     width: 100vw;

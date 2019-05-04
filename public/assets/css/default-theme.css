@@ -150,6 +150,24 @@ em, strong{
 #mu-price .mu-price-area .mu-price-table p{
   color: #fcfcfc;
 }
+#mu-final .mu-final-area-info{
+  border: 3px solid #47e8ff;
+}
+#mu-final .mu-final-area-info .mu-final-timetable-content h3{
+  color: #47e8ff;
+}
+#mu-final .mu-final-area-info .mu-final-arena .mu-final-arena-vendor, #mu-final .mu-final-area-info .mu-final-arena .mu-final-arena-vendor tr, #mu-final .mu-final-area-info .mu-final-arena .mu-final-arena-vendor td{
+  border: 2px solid #47e8ff;
+}
+#mu-final .mu-final-area-info .mu-final-arena .mu-final-arena-vendor p{
+  color: #fcfcfc;
+}
+#mu-event .mu-event-area{
+  border: 3px solid #47e8ff;
+}
+#mu-event .mu-event-area .mu-event-single .mu-event-single-right h3{
+  color: #fcfcfc;
+}
 #mu-footer .mu-footer-top .mu-footer-top-area .mu-footer-widget ul li a:hover, #mu-footer .mu-footer-top .mu-footer-top-area .mu-footer-widget ul li a:focus {
   color: #ff4dff;
 }

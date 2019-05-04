@@ -4,5 +4,6 @@ Disallow: /contact_us.html
 Disallow: /rule.html
 Disallow: /progress.html
 Disallow: /price.html
+Disallow: /final.html
 
 Sitemap: https://ntut-esports-superleague.firebaseapp.com/sitemap.xml
