@@ -19,6 +19,7 @@ function matchRecord(game){
     case 'hearthStone':
       records=[
         "8-1 2019/05/01 Miracle#41310：半透明立刻顯現出#3429 1：3 https://youtu.be/wgDvuqsUnXc",
+        "8-2 2019/05/05 Darkswindler#3857：仆街少年#4942 3：1 *",
         "8-3 2019/05/01 stopfish#4534：youch6165#3863 3：0 *",
         "8-4 2019/05/04 AdairL#3781：Cup#3337 2：3 https://youtu.be/YG2JlOS2ohw",
         "P-1 2019/04/27 Santafrog#3380：半透明立刻顯現出#3429 1：3 *",
