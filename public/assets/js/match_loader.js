@@ -3,6 +3,7 @@ function matchRecord(game){
   switch (game) {
     case 'kartRider':
       records=[
+        "4-2 2019/05/08 車隊BAN不見：韓總一定行 7：1 https://youtu.be/ezuJw_H_KKg",
         "8-1 2019/05/04 恭喜你贏了：你各位啊 0：7 https://youtu.be/f04aTFZ6xR4",
         "8-2 2019/05/02 ㄅㄆㄇㄈㄉㄊㄋ：我的阿提密斯呢 7：4 *",
         "8-3 2019/05/02 車隊BAN不見：來想個好隊名 7：0 https://youtu.be/l9_Fp06n3SE",
@@ -40,13 +41,13 @@ function matchRecord(game){
 
     case 'rainbowSix':
       records=[
-        "32-1 2019/02/17 這樣剛好七個字：這樣好像七個字 7：1 *",
-        "32-3 2019/02/18 這樣剛好七個字：這樣好像七個字 5：7 https://youtu.be/Ln-n6JiRDZc"
+        "4-2 2019/05/08 社競電科北：溫故帕瑪滋心 4：5 *"
       ];
       break;
 
     case 'starCraft2':
       records=[
+        "4-1 2019/05/08 Sheep#41527：PenutChen#4138 3：0 *",
         "P-1 2019/04/22 PenutChen#4138：youch6165#3863 2：0 https://youtu.be/1KYcJwhc1Tk",
         "P-2 2019/04/22 帥哥#3797：JOHNYOU#4894 2：0 *"
       ];
@@ -104,6 +105,6 @@ function loadMatch(game){
 }
 loadMatch('kartRider');
 loadMatch('hearthStone');
-// loadMatch('rainbowSix');
+loadMatch('rainbowSix');
 loadMatch('starCraft2');
 loadMatchCytus("cytus2","8","8強")
