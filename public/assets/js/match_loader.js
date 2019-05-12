@@ -3,6 +3,7 @@ function matchRecord(game){
   switch (game) {
     case 'kartRider':
       records=[
+        "4-1 2019/05/12 你各位啊：ㄅㄆㄇㄈㄉㄊㄋ 7：0 https://youtu.be/nYdwck7gkpk",
         "4-2 2019/05/08 車隊BAN不見：韓總一定行 7：1 https://youtu.be/ezuJw_H_KKg",
         "8-1 2019/05/04 恭喜你贏了：你各位啊 0：7 https://youtu.be/f04aTFZ6xR4",
         "8-2 2019/05/02 ㄅㄆㄇㄈㄉㄊㄋ：我的阿提密斯呢 7：4 *",
@@ -20,6 +21,7 @@ function matchRecord(game){
     case 'hearthStone':
       records=[
         "4-1 2019/05/10 半透明立刻顯現出#3429：Darkswindler#3857 3：2 https://youtu.be/WOxwh7rexhE",
+        "4-2 2019/05/11 stopfish#4534：Cup#3337 3：1 https://youtu.be/AwSeVBWo1_w",
         "8-1 2019/05/01 Miracle#41310：半透明立刻顯現出#3429 1：3 https://youtu.be/wgDvuqsUnXc",
         "8-2 2019/05/05 Darkswindler#3857：仆街少年#4942 3：1 *",
         "8-3 2019/05/01 stopfish#4534：youch6165#3863 3：0 *",
@@ -42,13 +44,15 @@ function matchRecord(game){
 
     case 'rainbowSix':
       records=[
+        "4-1 2019/05/10 我拿槍了嗎喇：科文哲機掃化痰 1：5 *",
         "4-2 2019/05/08 社競電科北：溫故帕瑪滋心 4：5 *"
       ];
       break;
 
     case 'starCraft2':
       records=[
-        "4-1 2019/05/08 Sheep#41527：PenutChen#4138 3：0 *",
+        "4-1 2019/05/08 Sheep#41527：帥哥#3797 0：3 *",
+        "4-2 2019/05/12 BlackTea#41749：PenutChen#4138 3：0 *",
         "P-1 2019/04/22 PenutChen#4138：youch6165#3863 2：0 https://youtu.be/1KYcJwhc1Tk",
         "P-2 2019/04/22 帥哥#3797：JOHNYOU#4894 2：0 *"
       ];
