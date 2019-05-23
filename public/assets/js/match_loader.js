@@ -21,6 +21,7 @@ function matchRecord(game){
 
     case 'hearthStone':
       records=[
+        "SRU 2019/05/19 Darkswindler#3857：Cup#3337 2：3 *",
         "4-1 2019/05/10 半透明立刻顯現出#3429：Darkswindler#3857 3：2 https://youtu.be/WOxwh7rexhE",
         "4-2 2019/05/11 stopfish#4534：Cup#3337 3：1 https://youtu.be/AwSeVBWo1_w",
         "8-1 2019/05/01 Miracle#41310：半透明立刻顯現出#3429 1：3 https://youtu.be/wgDvuqsUnXc",
@@ -40,6 +41,35 @@ function matchRecord(game){
     case 'cytus2-8':
       records=[
         "組別 玩家名稱 晉級 第一首分數 第二首分數 曲目總分",
+        "A 麻糬 * 1952257 1997900 3950157",
+        "A SunWind * 1925100 1945268 3890536",
+        "A RuiCat - 1850162 1916764 3766926",
+      ];
+      break;
+
+    case 'cytus2-4':
+      records=[
+        "組別 玩家名稱 晉級 第一首分數 第二首分數 曲目總分",
+        "4 麻糬 * 1987500 1933324 3920824",
+        "4 SunWind * 1931531 1939001 3870632",
+        "4 石頭 - 1664088 1710814 3374902",
+        "4 Xixen - 1786256 1776167 3562423"
+      ];
+      break;
+
+    case 'cytus2-sur':
+      records=[
+        "組別 玩家名稱 晉級 第一首分數 第二首分數 第三首分數 曲目總分",
+        "季殿 Xixen * 1764857 1736330 1756547 5257734",
+        "季殿 石頭 - 1592875 1612550 1646771 4852196"
+      ];
+      break;
+
+    case 'cytus2-champ':
+      records=[
+        "組別 玩家名稱 晉級 第一首分數 第二首分數 第三首分數 曲目總分",
+        "冠亞 麻糬 * 1898886 1890973 1918145 5708004",
+        "冠亞 SunWind - 1920720 1870730 1913205 5704655"
       ];
       break;
 
@@ -53,6 +83,8 @@ function matchRecord(game){
 
     case 'starCraft2':
       records=[
+        "FINAL 2019/05/21 Sheep#41527：帥哥#3797 3：0 https://youtu.be/vPG9Ndec1aU",
+        "SRU 2019/05/19 PenutChen#4138：BlackTea#41749 藍方未報到 *",
         "4-1 2019/05/08 Sheep#41527：PenutChen#4138 3：0 *",
         "4-2 2019/05/12 BlackTea#41749：帥哥#3797 0：3 *",
         "P-1 2019/04/22 PenutChen#4138：youch6165#3863 2：0 https://youtu.be/1KYcJwhc1Tk",
@@ -66,7 +98,7 @@ function matchRecord(game){
 function loadMatchCytus(game,round,roundTitle){
   var i,j;
   var records=matchRecord(game+"-"+round);
-  var templateId=["class","name","up","scro1","score2","total"];
+  var templateId=["class","name","up","score1","score2","total"];
   var title=document.createElement("h2");
   title.innerHTML=roundTitle;
   document.getElementById(game).getElementsByClassName('mu-progress-recent')[0].appendChild(title);
@@ -74,6 +106,31 @@ function loadMatchCytus(game,round,roundTitle){
   for(i=0 ; i<records.length ; i++){
     var matchContent = records[i].split(' ');
     var template = document.getElementById('cytus-single-match-template').content.cloneNode(true);
+
+    for(j=0 ; j<matchContent.length ; j++){
+      if (matchContent[j]=='-'){
+        template.getElementById(templateId[j]).innerHTML="<p> </p>";
+        continue;
+      }
+      template.getElementById(templateId[j]).innerHTML="<p>"+matchContent[j]+"</p>";
+    }
+
+    var target=document.getElementById(game).getElementsByClassName('mu-progress-recent');
+    target[0].appendChild(template);
+  }
+}
+
+function loadMatchCytusFinal(game,round,roundTitle){
+  var i,j;
+  var records=matchRecord(game+"-"+round);
+  var templateId=["class","name","up","score1","score2","score3","total"];
+  var title=document.createElement("h2");
+  title.innerHTML=roundTitle;
+  document.getElementById(game).getElementsByClassName('mu-progress-recent')[0].appendChild(title);
+
+  for(i=0 ; i<records.length ; i++){
+    var matchContent = records[i].split(' ');
+    var template = document.getElementById('cytus-final-match-template').content.cloneNode(true);
 
     for(j=0 ; j<matchContent.length ; j++){
       if (matchContent[j]=='-'){
@@ -114,4 +171,7 @@ loadMatch('kartRider');
 loadMatch('hearthStone');
 loadMatch('rainbowSix');
 loadMatch('starCraft2');
-loadMatchCytus("cytus2","8","8強")
+loadMatchCytusFinal("cytus2","champ","冠亞");
+loadMatchCytusFinal("cytus2","sur","季殿");
+loadMatchCytus("cytus2","4","4強");
+loadMatchCytus("cytus2","8","8強");
