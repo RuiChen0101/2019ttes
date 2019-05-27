@@ -3,6 +3,7 @@ function matchRecord(game){
   switch (game) {
     case 'kartRider':
       records=[
+        "FINAL 2019/05/25 你各位啊：車隊BAN不見 0：2 https://youtu.be/xzxdR_MGmMU",
         "SRU 2019/05/16 ㄅㄆㄇㄈㄉㄊㄋ：韓總一定行 3：7 https://youtu.be/G0tKF6V2JA4",
         "4-1 2019/05/12 你各位啊：ㄅㄆㄇㄈㄉㄊㄋ 7：0 https://youtu.be/nYdwck7gkpk",
         "4-2 2019/05/08 車隊BAN不見：韓總一定行 7：1 https://youtu.be/ezuJw_H_KKg",
@@ -21,6 +22,7 @@ function matchRecord(game){
 
     case 'hearthStone':
       records=[
+        "FINAL 2019/05/25 半透明立刻顯現出#3429：stopfish#4534 3：0 https://youtu.be/jtYdbwmYzqA",
         "SRU 2019/05/19 Darkswindler#3857：Cup#3337 2：3 *",
         "4-1 2019/05/10 半透明立刻顯現出#3429：Darkswindler#3857 3：2 https://youtu.be/WOxwh7rexhE",
         "4-2 2019/05/11 stopfish#4534：Cup#3337 3：1 https://youtu.be/AwSeVBWo1_w",
@@ -75,6 +77,7 @@ function matchRecord(game){
 
     case 'rainbowSix':
       records=[
+        "FINAL 2019/05/25 科文哲機掃化痰：溫故帕瑪滋心 2：0 https://youtu.be/TP8Wow5kdXs",
         "SRU 2019/05/16 我拿槍了嗎喇：社競電科北 5：4 *",
         "4-1 2019/05/10 我拿槍了嗎喇：科文哲機掃化痰 1：5 *",
         "4-2 2019/05/08 社競電科北：溫故帕瑪滋心 4：5 *"
